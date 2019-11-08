@@ -6,12 +6,50 @@ body {
   font-size: 16px;
   padding: 1rem;
 }
+
+div#container {
+  width: 968px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
+
 h1 {
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  border-bottom: 1px solid #fff;
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+h5 {
   font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.25rem;
+  text-decoration: underline;
+}
+
+a {
+  color: #fa0;
+}
+
+a:visited {
+  color: #d80;
+}
+
+table {
+  margin: 1rem 0;
+}
+
+td, th {
+  border: 1px solid #aaa;
+  padding: 0.25rem;
 }
