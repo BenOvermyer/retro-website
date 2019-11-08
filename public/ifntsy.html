@@ -1,986 +1,1208 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Iridium Fantasy</title>
+    <link rel="stylesheet" href="site.css">
+    <style type="text/css">
+        @font-face {
+            font-family: 'bodacious';
+            src: url('fonts/bodacious_normal-webfont.woff2') format('woff2'),
+                url('fonts/bodacious_normal-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'bodacious';
+        }
+    </style>
 </head>
+
 <body>
-<b><font face="Bodacious-Normal" size="7" color="#ff0000"><p align="CENTER">Iridium Fantasy</p>
-</font><font size="4"><p align="CENTER">&nbsp;</p>
-</b><i><p align="CENTER">Written and Designed by Ben Overmyer</p>
-</i><b><p>&nbsp;</p>
-</b></font><p><hr></p>
-<b><font size="4"><p>Introduction</p>
-</b></font><p>&nbsp;</p>
-<p>My first game I ever wrote was a pitiful boardgame about 5 years ago that wasn't even typed. Now, I have an RPG published on the Web. Now, while I like that game, it is remarkably similar to Dungeons and Dragons. If you like that kind of game, go see V
-ox Draconis at:</p>
-<p><a href="https://web.archive.org/web/20010418013415/http://cyberenet.net/~galaxy/drgnking.htm">This Site</a></p>
-<p>This game is nothing like any existing system. I have tried to be as original as possible. Also, I tried to keep it short, since I really hate reading 200+ pages of rules before finally understanding how to roll attributes. If you have any questions or
- comments, please send them to me at one of these addresses:</p>
-<p>darklance@emailx.com</p>
-<p>darklance@death-star.com</p>
-<p>darklance@thekeyboard.com</p>
-<p>&nbsp;</p>
-<p>Thanks for trying out my game.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<b><font size="4"><p>Character Generation</p>
-</b></font><p>&nbsp;</p>
-<u><p>Dice Explanation</p>
-</u><p>%dice is used a great deal throughout the game. To roll %dice, roll two ten-sided dice, with one of the numbers being the first digit and the other number as the second digit. 00 represents 100.</p>
-<p>&nbsp;</p>
-<u><p>Rolling Attributes</p>
-</u><p>Roll %dice for each.</p>
-<p>&nbsp;</p>
-<p>Intelligence</p>
-<p>Manual Dexterity</p>
-<p>Physical Strength</p>
-<p>Willpower</p>
-<p>Endurance</p>
-<p>Physical Beauty</p>
-<p>Charisma</p>
-<p>Agility</p>
-<p>Perception</p>
-<p>Speed</p>
-<p>Bravery</p>
-<p>Magical Aptitude</p>
-<p>&nbsp;</p>
-<p>Roll 1d20 for Life Force Points, then multiply them times the Endurance score, and modify them according to character race and occupation. Example: Endurance 67, occupation Knight, race human - (0.57 x 16(1d20 result)) x 1.5 = 14 LFP.&nbsp;</p>
-<u><p>Skill System</p>
-</u><p>Think up a skill that your character has, then have the GM assign a percentage value for it.</p>
-<p>When you try to use that skill, roll %dice. If the value you roll is lower than the percentage value of the skill, then you succeed at whatever you're doing. If the value of the roll is higher than the percentage value of the skill, then you fail, and 
-you mess up what you're doing in some way(Gamemaster determines).</p>
-<p>&nbsp;</p>
-<p>NOTE: When creating a new character, you can have a maximum number of skills equal to your intelligence divided by 5, rounding up.</p>
-<p>&nbsp;</p>
-<u><p>Experience System</p>
-</u><p>Experience in the Iridium system is given as player characters complete tasks. Experience is given in categories:</p>
-<p>&nbsp;</p>
-<i><p>Intellectual Categories</i>:</p>
-<p>Wisdom</p>
-<p>Problem Solving</p>
-<p>Education</p>
-<p>&nbsp;</p>
-<i><p>Physical Categories</i>:</p>
-<p>Manual Work</p>
-<p>Muscle Development</p>
-<p>Reflexes</p>
-<p>&nbsp;</p>
-<p>When a task is completed, the Gamemaster will assign a certain amount of points to the player that goes into a particular category. When a category reaches 100 points, it is reset to 0 and the player can obtain a new skill related to that category, or 
-the player can</p>
-<p>improve an old skill by 1d10%, but it has to be related to the experience category. It is recommended that the Gamemaster use this table to assign experience points:</p>
-<p>&nbsp;</p>
-<p>Task Difficulty&#9; Points Given</p>
-<p>Very Easy&#9; 1</p>
-<p>Easy&#9;&#9; 2</p>
-<p>Average&#9; 3</p>
-<p>Hard&#9;&#9; 4</p>
-<p>Very Hard&#9; 5</p>
-<p>Heroic&#9;&#9; 6</p>
-<p>&nbsp;</p>
-<br>
-<p>Also, instead of improving a skill or getting a new one, you can add 
-to your LFP. Roll 1d10.</p>
-<p>EXAMPLE: Drygar Farseer attempts to leap across a narrow canyon, grab a vine in the center, and swing across to the other side. The Gamemaster determines that this is a Very Hard task(Drygar has a Manual Dexterity score of 46% and an Agility score of 2
-1%, as well as a Jump skill of 37%). Drygar successfully rolls against both scores and his skill, so he completes the task. He gains 5 experience points and divides them up between his Manual Work and Reflexes categories. This brings his Reflexes score to
- 100, so he resets the category and improves his Jump skill by 7%(he rolled a 7 on the 1d10%). He now has a Jump skill of 44%.</p>
-<p>&nbsp;</p>
-<p>&#9; </p>
-<u><p>Weapons Experience</p>
-</u><p>When a character uses a weapon, he will gain experience as well. Unlike character experience, weapon experience is given in levels.When a weapon is used, the wielder will gain 1 weapon experience point. This point goes into that weapon's experience
- cache. When the cache reaches 50, then the weapon goes up a level and the cache is reset. As weapon level increases, the character can perform more difficult maneuvers with less difficulty. Use this table for such maneuvers:</p>
-<p>&nbsp;</p>
-<table cellspacing="0" border="0" cellpadding="7" width="638">
-<tr><td width="33%" valign="TOP">
-<p>Maneuver Difficulty </td>
-<td width="33%" valign="TOP">
-<p>Base Chance of Success</td>
-<td width="33%" valign="TOP">
-<p>Damage Modifier</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Very Easy(stab)</td>
-<td width="33%" valign="TOP">
-<p> 70%</td>
-<td width="33%" valign="TOP">
-<p>-1</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Easy(parry)</td>
-<td width="33%" valign="TOP">
-<p>55%</td>
-<td width="33%" valign="TOP">
-<p>0</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Average(overhead smash) </td>
-<td width="33%" valign="TOP">
-<p>40%</td>
-<td width="33%" valign="TOP">
-<p>+1</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Hard(Fake, then thrust) </td>
-<td width="33%" valign="TOP">
-<p>25%</td>
-<td width="33%" valign="TOP">
-<p>x2</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Very Hard(Death blow) </td>
-<td width="33%" valign="TOP">
-<p>10%</td>
-<td width="33%" valign="TOP">
-<p>x3</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Heroic(Whirlwind Strike)</td>
-<td width="33%" valign="TOP">
-<p>1%</td>
-<td width="33%" valign="TOP">
-<p>x4</td>
-</tr>
-</table>
+    <h1>Iridium Fantasy</h1>
+    <p>Written and Designed by Ben Overmyer</p>
+    <p>
+        <hr>
+    </p>
+    <h2>Introduction</h2>
+    </b>
+    <p>My first game I ever wrote was a pitiful boardgame somewhere around 1992 that wasn't even typed. Now, I have an
+        RPG
+        published on the Web. Now, while I like that game, it is remarkably similar to Dungeons and Dragons. If you like
+        that kind of game, go see <a href="vd.html">Vox Draconis</a>.</p>
+    <p>This game is nothing like any existing system. I have tried to be as original as possible. Also, I tried to keep
+        it short, since I really hate reading 200+ pages of rules before finally understanding how to roll attributes.
+        If you have any questions or comments, please <a href="mailto:ben@overmyer.net">email me</a>.</p>
+    <p>Thanks for trying out my game.</p>
+    <h2>Character Generation</h2>
+    </b>
+    <u>
+        <p>Dice Explanation</p>
+    </u>
+    <p>%dice is used a great deal throughout the game. To roll %dice, roll two ten-sided dice, with one of the numbers
+        being the first digit and the other number as the second digit. 00 represents 100.</p>
+    <u>
+        <p>Rolling Attributes</p>
+    </u>
+    <p>Roll %dice for each.</p>
+    <p>Intelligence</p>
+    <p>Manual Dexterity</p>
+    <p>Physical Strength</p>
+    <p>Willpower</p>
+    <p>Endurance</p>
+    <p>Physical Beauty</p>
+    <p>Charisma</p>
+    <p>Agility</p>
+    <p>Perception</p>
+    <p>Speed</p>
+    <p>Bravery</p>
+    <p>Magical Aptitude</p>
+    <p>Roll 1d20 for Life Force Points, then multiply them times the Endurance score, and modify them according to
+        character race and occupation. Example: Endurance 67, occupation Knight, race human - (0.57 x 16(1d20 result)) x
+        1.5 = 14 LFP.&nbsp;</p>
+    <u>
+        <p>Skill System</p>
+    </u>
+    <p>Think up a skill that your character has, then have the GM assign a percentage value for it.</p>
+    <p>When you try to use that skill, roll %dice. If the value you roll is lower than the percentage value of the
+        skill, then you succeed at whatever you're doing. If the value of the roll is higher than the percentage value
+        of the skill, then you fail, and
+        you mess up what you're doing in some way(Gamemaster determines).</p>
+    <p>NOTE: When creating a new character, you can have a maximum number of skills equal to your intelligence divided
+        by 5, rounding up.</p>
+    <u>
+        <p>Experience System</p>
+    </u>
+    <p>Experience in the Iridium system is given as player characters complete tasks. Experience is given in categories:
+    </p>
+    <i>
+        <p>Intellectual Categories
+    </i>:</p>
+    <p>Wisdom</p>
+    <p>Problem Solving</p>
+    <p>Education</p>
+    <i>
+        <p>Physical Categories
+    </i>:</p>
+    <p>Manual Work</p>
+    <p>Muscle Development</p>
+    <p>Reflexes</p>
+    <p>When a task is completed, the Gamemaster will assign a certain amount of points to the player that goes into a
+        particular category. When a category reaches 100 points, it is reset to 0 and the player can obtain a new skill
+        related to that category, or
+        the player can</p>
+    <p>improve an old skill by 1d10%, but it has to be related to the experience category. It is recommended that the
+        Gamemaster use this table to assign experience points:</p>
+    <p>Task Difficulty&#9; Points Given</p>
+    <p>Very Easy&#9; 1</p>
+    <p>Easy&#9;&#9; 2</p>
+    <p>Average&#9; 3</p>
+    <p>Hard&#9;&#9; 4</p>
+    <p>Very Hard&#9; 5</p>
+    <p>Heroic&#9;&#9; 6</p>
+    <br>
+    <p>Also, instead of improving a skill or getting a new one, you can add
+        to your LFP. Roll 1d10.</p>
+    <p>EXAMPLE: Drygar Farseer attempts to leap across a narrow canyon, grab a vine in the center, and swing across to
+        the other side. The Gamemaster determines that this is a Very Hard task(Drygar has a Manual Dexterity score of
+        46% and an Agility score of 2
+        1%, as well as a Jump skill of 37%). Drygar successfully rolls against both scores and his skill, so he
+        completes the task. He gains 5 experience points and divides them up between his Manual Work and Reflexes
+        categories. This brings his Reflexes score to
+        100, so he resets the category and improves his Jump skill by 7%(he rolled a 7 on the 1d10%). He now has a Jump
+        skill of 44%.</p>
+    <p>&#9; </p>
+    <u>
+        <p>Weapons Experience</p>
+    </u>
+    <p>When a character uses a weapon, he will gain experience as well. Unlike character experience, weapon experience
+        is given in levels.When a weapon is used, the wielder will gain 1 weapon experience point. This point goes into
+        that weapon's experience
+        cache. When the cache reaches 50, then the weapon goes up a level and the cache is reset. As weapon level
+        increases, the character can perform more difficult maneuvers with less difficulty. Use this table for such
+        maneuvers:</p>
+    <table cellspacing="0" border="0" cellpadding="7" width="638">
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Maneuver Difficulty
+            </td>
+            <td width="33%" valign="TOP">
+                <p>Base Chance of Success
+            </td>
+            <td width="33%" valign="TOP">
+                <p>Damage Modifier
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Very Easy(stab)
+            </td>
+            <td width="33%" valign="TOP">
+                <p> 70%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>-1
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Easy(parry)
+            </td>
+            <td width="33%" valign="TOP">
+                <p>55%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>0
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Average(overhead smash)
+            </td>
+            <td width="33%" valign="TOP">
+                <p>40%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+1
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Hard(Fake, then thrust)
+            </td>
+            <td width="33%" valign="TOP">
+                <p>25%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>x2
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Very Hard(Death blow)
+            </td>
+            <td width="33%" valign="TOP">
+                <p>10%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>x3
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Heroic(Whirlwind Strike)
+            </td>
+            <td width="33%" valign="TOP">
+                <p>1%
+            </td>
+            <td width="33%" valign="TOP">
+                <p>x4
+            </td>
+        </tr>
+    </table>
 
-<p>&nbsp;</p>
-<p>For each new weapon level, the character gains 1d20% in that</p>
-<p>weapon's chance of success. All weapons start at Level 1.</p>
-<p>&nbsp;</p>
-<p>EXAMPLE: Drygar Farseer tries to smash an orc over the head</p>
-<p>&#9; with his mace. Normally, this would be a 40% chance,</p>
-<p>&#9; but since Drygar is Level 3 with the mace, he has a</p>
-<p>&#9; 75% chance(he rolled 18 at Level 2 and 17 at level 3).</p>
-<p>&#9; He rolls versus the chance and gets a 23 - a complete</p>
-<p>&#9; success. Now the orc has a chance to deflect the blow...</p>
-<p>&#9; see Combat.</p>
-<p>&nbsp;</p>
-<u><p>Races</p>
-</u><p>Races play an important part of the game. Each one has advantages and</p>
-<p>disadvantages. </p>
-<p>&nbsp;</p>
-<i><p>Human</p>
-</i><p>Bonuses: None</p>
-<p>Penalties: None</p>
-<p>Humans are the most common race in Iridium Fantasy. They</p>
-<p>tend to be aggressive, but not overly so. Humans are usually</p>
-<p>about 5'6" tall and weigh 160 lbs.</p>
-<p>Subspecies:</p>
-<p>None</p>
-<p>&nbsp;</p>
-<i><p>&nbsp;</p>
-<p>Elf</p>
-</i><p>Bonuses: +5% to Intelligence, +5% to Manual Dexterity, +5% to Perception</p>
-<p>Penalties: -15% to Physical Strength</p>
-<p>Elves are also known as the Fey. They are short(about 4'5" avg.)</p>
-<p>and have pointed ears. They have excellent sight and are among</p>
-<p>the best archers in the world. They are also light(about 80 lbs).</p>
-<p>Subspecies:</p>
-<p>Noble Elf</p>
-<p>&#9;Noble elves are those of royal blood. They rule over all the</p>
-<p>&#9;other elves. Unlike other elves, they are arrogant and will</p>
-<p>&#9;occasionally(40% chance) irritate someone beyond the limit,</p>
-<p>&#9;at which time that someone will probably take violent action</p>
-<p>&#9;against the elf. Noble elves are taller than others(5' avg.).</p>
-<p>&#9;They will tend to wear expensive clothing and gain a +1d20</p>
-<p>&#9;bonus to starting money. Noble elves cannot be warriors.</p>
-<p>Wood Elf</p>
-<p>&#9;Wood elves are the woodland species of elf. They are very</p>
-<p>&#9;quiet when in the woods(RACIAL SKILL: Move Silently: Woods 45%).</p>
-<p>&#9;They are never arrogant, although they are extremely wary</p>
-<p>&#9;of nonelven races. Wood elves tend to be dressed in handmade</p>
-<p>&#9;forestcolored clothing(like deerhide jackets, etc.). They</p>
-<p>&#9;are best suited as scouts or wardens(+1 to experience earned</p>
-<p>&#9;if the wood elf is a scout or warden).</p>
-<p>Sand Elf</p>
-<p>&#9;Sand elves, or desert elves as they are called by humans,</p>
-<p>&#9;are the most enigmatic of the elves. They do not obey laws</p>
-<p>&#9;set out by noble elves. Sand elves have a nomadic social</p>
-<p>&#9;structure based on family groups, or clans. They are very</p>
-<p>&#9;hard to spot in the desert(RACIAL SKILL: Invisibility: Desert 65%).</p>
-<p>&#9;Rarely will a sand elf leave the desert. They have a dark</p>
-<p>&#9;complexion and dress in sand-colored clothing. </p>
-<p>Dark Elf</p>
-<p>&#9;Dark elves are the most dangerous of elves. Like the</p>
-<p>&#9;sand elves, they don't obey noble elf laws. Unlike the</p>
-<p>&#9;other elves, dark elves live underground. They hate</p>
-<p>&#9;sunlight(-10% to all rolls when in sunlight). Dark elves</p>
-<p>&#9;have black skin, white hair, and red or dark purple eyes.</p>
-<p>&#9;They wear clothing made of black hide that is believed</p>
-<p>&#9;to come from an unknown type of predator that lives deep</p>
-<p>&#9;underground. Dark elves will ALWAYS be of an evil alignment,</p>
-<p>&#9;and are hated by all other elves. They can, however, see</p>
-<p>&#9;in the dark(RACIAL SKILL: Nightvision 50%). </p>
-<p>&nbsp;</p>
-<i><p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Dwarf</p>
-</i><p>Bonuses: +10% to Manual Dexterity, RACIAL SKILL: Craft Weapon: Axe 45%, +1d4 LFP</p>
-<p>Penalties: -100% to Magical Aptitude! Dwarves CANNOT use magic!</p>
-<p>Dwarves are short, stocky fellows. They love metal, and they are</p>
-<p>recognized as the world's greatest smiths. They tend to be about </p>
-<p>5' tall and weigh around 180 lbs. </p>
-<p>Subspecies:</p>
-<p>Mountain Dwarf</p>
-<p>&#9;Mountain dwarves are the most common type of dwarf. They live</p>
-<p>&#9;underground in mountains. They are the greatest smiths of all</p>
-<p>&#9;the dwarven race(RACIAL SKILL: Craft Weapon or Craft Armor 55%)</p>
-<p>&#9;Mountain dwarves are friendly to all other dwarves except the</p>
-<p>&#9;shadow dwarves. They usually dress in leather and rough cloth.</p>
-<p>Plains Dwarf</p>
-<p>&#9;Plains dwarves are the only type of dwarf that live above ground.</p>
-<p>&#9;They love the sunlight and build large cities. Like mountain dwarves,</p>
-<p>&#9;they HATE shadow dwarves(40% chance of attacking a shadow dwarf on sight).</p>
-<p>&#9;Plains dwarves are taller than other dwarves(about 5'3"), but weigh</p>
-<p>&#9;about the same. They appreciate worldly goods, and usually dress in</p>
-<p>&#9;light, fine cloth. </p>
-<p>Shadow Dwarf</p>
-<p>&#9;Shadow dwarves are the dwarven equivalent of dark elves. They hold</p>
-<p>&#9;a fierce hatred of all other dwarves, and will(100% chance) attack</p>
-<p>&#9;any kin they see(this includes other shadow dwarves). They have no</p>
-<p>&#9;social structure, but seem to be able to control some part of their</p>
-<p>&#9;evil nature. Unlike dark elves, they are not completely ruled by evil.</p>
-<p>&#9;Shadow dwarves dress in black and dark grey clothing. Their hair is</p>
-<p>&#9;usually a pale grey to white, and their eyes are black. They have pale</p>
-<p>&#9;gray skin.</p>
-<u><p>&nbsp;</p>
-<p>Occupations</p>
-</u><p>&nbsp;</p>
-<i><p>Warriors</p>
-</i><p>Knight</p>
-<p>Requirements: Physical Strength 70%</p>
-<p>&#9; &#9; Manual Dexterity 40%</p>
-<p>&#9;&#9; Bravery 45%</p>
-<p>&#9;&#9; Endurance 75%</p>
-<p>Allowed races: Human</p>
-<p>Starting Money: 1d10x100 gold</p>
-<p>Starting Equipment: Chain mail, long sword, horse, lance</p>
-<p>Occupational Skills: Swordplay 45+1d10%, Jousting 35+1d20%</p>
-<p>Knights make up a large portion of human armies. Player knights</p>
-<p>who are adventuring are usually either Questing Knights or Rogue Knights.</p>
-<p>Life Force Point Modifier: Multiply LFP times 1.5(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9;Questing Knight</p>
-<p>&#9; Questing Knights are those knights who take up a quest. This</p>
-<p>&#9; quest is given to the knight by a god(dess). Hence, the Gamemaster</p>
-<p>&#9; will assign the quest. It must be something that requires the</p>
-<p>&#9; maximum effort by the player, but nothing so difficult that a starting</p>
-<p>&#9; character cannot achieve it.</p>
-<p>&#9;Rogue Knight</p>
-<p>&#9; Rogue Knights are outlaws, knights who have shunned honor and chivalry</p>
-<p>&#9; in favor of fame and riches. They are hunted by other knights, and are</p>
-<p>&#9; never welcome in towns where the knight is known of. </p>
-<p>&#9;Soldier Knight</p>
-<p>&#9; This is the typical knight. Soldier Knights can only be played by a</p>
-<p>&#9; player if the other players are also Soldier Knights. </p>
-<p>&nbsp;</p>
-<p>Mercenary </p>
-<p>Requirements: Physical Strength 50%</p>
-<p>&#9;&#9; Bravery 30%</p>
-<p>Allowed races: All</p>
-<p>Starting Money: 2d20 gold</p>
-<p>Starting Equipment: Leather armor, Short sword</p>
-<p>Occupational Skills: Tracking 35+1d10%, Bartering 25+1d20%, Swordplay 30+1d8%</p>
-<p>Mercenaries are warriors who roam the countryside looking for someone</p>
-<p>to hire them as extra help in a war or just as raiders. Most often they</p>
-<p>will be willing to work for anyone, as long as the pay is good.</p>
-<p>Gamemasters should determine how much a mercenary is paid depending on the</p>
-<p>job they are given.</p>
-<p>Life Force Point Modifier: Multiply LFP times 1.25(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9;Regular mercenary</p>
-<p>&#9;Bounty Hunter</p>
-<p>&#9; Bounty hunters are mercenaries who look for only one person. They</p>
-<p>&#9; are usually hired by desperate law enforcement agencies who want</p>
-<p>&#9; to capture or eliminate a specific criminal. </p>
-<p>Warden</p>
-<p>Requirements: Perception 55%</p>
-<p>&#9;&#9; Bravery 35%</p>
-<p>&#9;&#9; Intuition 35%</p>
-<p>Allowed races: All but dwarves</p>
-<p>Starting money: 1d10 gold</p>
-<p>Starting equipment: Short sword, leather armor, dagger, long bow, 50 arrows, </p>
-<p>&#9;&#9;&#9; quiver</p>
-<p>Occupational Skills: Tracking 60+1d10%, Swordplay 25+1d20%, </p>
-<p>&#9;&#9;&#9; Move Silently: Woods 35+1d10%, Forest Knowledge 35+1d20%</p>
-<p>Wardens are, for the most part, protectors of the forest. They are known</p>
-<p>for their skill as fighters, but also for their fierce defense of the woods.</p>
-<p>Wood elves make up about 90% of the wardens.</p>
-<p>Life Force Point Modifier: Multiply LFP times 1.25(round up)</p>
-<p>Suboccupations: </p>
-<p>&#9; Regular Warden</p>
-<p>&nbsp;</p>
-<p>Adventurer</p>
-<p>Requirements: Bravery 60%</p>
-<p>Allowed Races: All</p>
-<p>Starting money: 1d10x5 gold</p>
-<p>Starting equipment: Leather armor, hand axe OR short sword</p>
-<p>Occupational Skills: None</p>
-<p>Adventurers are the most basic type of warrior. They are</p>
-<p>the brave few that decide just to go have adventures. </p>
-<p>Life Force Point Modifier: No modifier.</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Adventurer</p>
-<p>&nbsp;</p>
-<i><p>Wizards</p>
-</i><p>NOTE: All wizards can use any weapon they want, and wear any armor they want, but if the armor/weapon is made of any kind of metal, they CANNOT cast spells while they</p>
-<p>wear/wield it.</p>
-<p>Terramancer</p>
-<p>Requirements: Magical Aptitude 70%</p>
-<p>&#9;&#9; Intelligence 55% </p>
-<p>&#9;&#9; Willpower 60%</p>
-<p>Allowed Races: All but dwarves</p>
-<p>Starting money: NONE</p>
-<p>Starting equipment: Green wizard's robes, oak staff</p>
-<p>Occupational Skills: Arcane Knowledge: Terramancy 45%</p>
-<p>&#9;&#9;&#9; Magic Use: Terramancy 50%</p>
-<p>Terramancers are the mages that control the magic of</p>
-<p>Earth. They can influence all earth-related things.</p>
-<p>A bonus that earth mages recieve is long life. If they</p>
-<p>don't get killed, they will live indefinitely. </p>
-<p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Terramancer</p>
-<p>&nbsp;</p>
-<p>Ventimancer</p>
-<p>Requirements: Magical Aptitude 50%</p>
-<p>&#9; Intelligence 60%</p>
-<p>&#9;&#9; Willpower 50%</p>
-<p>Allowed Races: All but dwarves</p>
-<p>Starting money: NONE</p>
-<p>Starting equipment: White wizard's robes, oak staff</p>
-<p>Occupational Skills: Arcane Knowledge: Ventimancy 55%,</p>
-<p>&#9;&#9; Magic Use: Ventimancy 60%</p>
-<p>Ventimancers are wind mages. They control storms and</p>
-<p>other forms of wind. Ventimancers are very dangerous.</p>
-<p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Ventimancer</p>
-<p>&nbsp;</p>
-<p>Pyromancer</p>
-<p>Requirements: Magical Aptitude 60%</p>
-<p>Intelligence 60%</p>
-<p>&#9;&#9; Willpower 60%</p>
-<p>Allowed Races: All but dwarves</p>
-<p>Starting money: NONE</p>
-<p>Starting equipment: Red wizard's robes</p>
-<p>Occupational Skills: Arcane Knowledge: Pyromancy 60%</p>
-<p>&#9;&#9;&#9; Magic Use: Pyromancy 50%</p>
-<p>Pyromancers are masters of fire. They are the mages</p>
-<p>that conjure fireballs and rains of fire to destroy</p>
-<p>their enemies. They are in high demand during wartime.</p>
-<p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Pyromancer</p>
-<p>Hydromancer</p>
-<p>Requirements: Magical Aptitude 55%</p>
-<p>&#9;&#9; Intelligence 70%</p>
-<p>&#9;&#9; Willpower 65%</p>
-<p>Allowed Races: All but dwarves</p>
-<p>Starting money: NONE</p>
-<p>Starting equipment: Blue wizard's robes</p>
-<p>Occupational Skills: Arcane Knowledge: Hydromancy 50%</p>
-<p>&#9;&#9;&#9; Magic Use: Hydromancy 60%</p>
-<p>Hydromancers are the mages that have mastered water</p>
-<p>control. They can summon tidal waves or call much-needed</p>
-<p>rains. Sometimes they work with ventimancers.</p>
-<p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Hydromancer</p>
-<p>&nbsp;</p>
-<p>Necromancer</p>
-<p>Requirements: Magical Aptitude 75%</p>
-<p>Intelligence 75%</p>
-<p>&#9;&#9; Willpower 90%</p>
-<p>&#9;&#9; Endurance 60%</p>
-<p>Allowed Races: Dark elves and EVIL humans ONLY</p>
-<p>Starting money: NONE</p>
-<p>Starting equipment: Black wizard's robes, bone staff, dagger</p>
-<p>Occupational Skills: Arcane Knowledge: Necromancy 30%</p>
-<p>&#9;&#9;&#9; Magic Use: Necromany 35%</p>
-<p>Necromancers are the darkest, most evil of the wizards.</p>
-<p>They control the power to animate the dead and speak</p>
-<p>with the dead. There is only a 10% chance that a necromancer</p>
-<p>will be good-aligned(roll for this if the player wants it).</p>
-<p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
-<p>Suboccupations:</p>
-<p>Regular Necromancer</p>
-<p>&#9; Shaman</p>
-<p>&#9; Shamans are necromancers who ONLY talk to the dead. They</p>
-<p>&#9; do not have any other necromantic powers. Shamans can</p>
-<p>&#9; be of a good alignment.</p>
-<p>&nbsp;</p>
-<i><p>Rogues</p>
-</i><p>Thief</p>
-<p>Requirements: Manual Dexterity 50%</p>
-<p>&#9;&#9; Agility 45%</p>
-<p>Allowed Races: All</p>
-<p>Starting money: 1d4 gold</p>
-<p>Starting equipment: Leather armor, dagger, belt pouch</p>
-<p>Occupational Skills: Robbery 50%, Hide in Shadows 45%</p>
-<p>&#9;&#9;&#9; Move Silently: Urban 35%</p>
-<p>Thieves are the dregs of society. They steal and</p>
-<p>sometimes murder to further their own gains, and have</p>
-<p>very few ethics. </p>
-<p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Regular Thief</p>
-<p>Rogue Knight</p>
-<p>See Rogue Knight in Warriors category</p>
-<p>&nbsp;</p>
-<p>Bard</p>
-<p>Requirements: Manual Dexterity 80%</p>
-<p>Allowed Races: All</p>
-<p>Starting money: 1d10 gold</p>
-<p>Starting equipment: Musical instrument of choice, clothing of choice</p>
-<p>Occupational Skills: Sing 75%, Play Instrument 60%</p>
-<p>Bards are the musicians of this world. They wander from</p>
-<p>town to town, playing or singing for people. A bard can</p>
-<p>obtain a job playing for local nobility, with the Gamemaster</p>
-<p>setting the salary earned. </p>
-<p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
-<p>Suboccupations:</p>
-<p>&#9; Roaming Bard</p>
-<p>&#9; Roaming bards are the musicians who wander from town</p>
-<p>&#9; to town, gaining money only when people throw it to</p>
-<p>&#9; them.</p>
-<p>&#9; Stationary Bard</p>
-<p>&#9; Stationary bards are those that stay in one place,</p>
-<p>&#9; hired by the local nobility to play for them.</p>
-<p>&#9; </p>
-<u><p>Additional Character Generation Information</p>
-</u><p>When you create a character, also include this information:</p>
-<p>&nbsp;</p>
-<p>Weight</p>
-<p>Height</p>
-<p>Sex</p>
-<p>Disposition(examples include cold, friendly, etc.)</p>
-<p>Outlook(Optimistic, Pessimistic, or Indifferent)</p>
-<p>Alignment(Good, Evil, or Neutral)</p>
-<p>Insanities(Mostly likely(80%) none, but may include phobias, obsessions, etc.)</p>
-<p>Hair Color</p>
-<p>Eye Color</p>
-<p>Skin Color</p>
-<p>Overall Appearance</p>
-<p>Parents(1 dead, both dead, both alive, or unknown to character)</p>
-<b><font size="4"><p>&nbsp;</p>
-<p>Combat</p>
-</b></font><p>&nbsp;</p>
-<p>As explained above, all weapons have a maneuver chance of success. When a roll is successful, then the user hits the target. However, the target can ALSO roll weapon maneuver to block the attack. If the target still fails, then the attacker rolls the d
-amage of the weapon. If the target is wearing armor, then the armor will take the damage before the target(roll maneuver chance of success for armor as well, and if the result is less than the percent of the attack's chance of success, then the armor is b
-reached and the target takes damage. If the result is more than said percent, then the armor is strong enough to deflect the attack) if the armor roll is successful. Each type of armor has an amount of armor points that are taken away when damage is done 
-to the armor.&nbsp;</p>
-<p>When a character's(player or nonplayer) Life Force Points reaches 0, the character is knocked unconscious. When the character's LFP reaches -5, the character is killed. Killed characters cannot be healed. </p>
-<p>&nbsp;</p>
-<p>EXAMPLE OF COMBAT: Continuing Drygar's battle with the orc:</p>
-<p>&#9;&#9; The orc failed his roll to deflect Drygar's attack,</p>
-<p>&#9;&#9; so now he takes damage. Drygar rolls a 4 on</p>
-<p>&#9;&#9; 1d6(the mace's damage roll). The orc is wearing</p>
-<p>&#9;&#9; leather armor, which has 5 Armor Points. It fails its armor roll.</p><dir>
-<dir>
-<dir>
-<dir>
+    <p>For each new weapon level, the character gains 1d20% in that</p>
+    <p>weapon's chance of success. All weapons start at Level 1.</p>
+    <p>EXAMPLE: Drygar Farseer tries to smash an orc over the head</p>
+    <p>&#9; with his mace. Normally, this would be a 40% chance,</p>
+    <p>&#9; but since Drygar is Level 3 with the mace, he has a</p>
+    <p>&#9; 75% chance(he rolled 18 at Level 2 and 17 at level 3).</p>
+    <p>&#9; He rolls versus the chance and gets a 23 - a complete</p>
+    <p>&#9; success. Now the orc has a chance to deflect the blow...</p>
+    <p>&#9; see Combat.</p>
+    <u>
+        <p>Races</p>
+    </u>
+    <p>Races play an important part of the game. Each one has advantages and</p>
+    <p>disadvantages. </p>
+    <i>
+        <p>Human</p>
+    </i>
+    <p>Bonuses: None</p>
+    <p>Penalties: None</p>
+    <p>Humans are the most common race in Iridium Fantasy. They</p>
+    <p>tend to be aggressive, but not overly so. Humans are usually</p>
+    <p>about 5'6" tall and weigh 160 lbs.</p>
+    <p>Subspecies:</p>
+    <p>None</p>
+    <i>
+        <p>Elf</p>
+    </i>
+    <p>Bonuses: +5% to Intelligence, +5% to Manual Dexterity, +5% to Perception</p>
+    <p>Penalties: -15% to Physical Strength</p>
+    <p>Elves are also known as the Fey. They are short(about 4'5" avg.)</p>
+    <p>and have pointed ears. They have excellent sight and are among</p>
+    <p>the best archers in the world. They are also light(about 80 lbs).</p>
+    <p>Subspecies:</p>
+    <p>Noble Elf</p>
+    <p>&#9;Noble elves are those of royal blood. They rule over all the</p>
+    <p>&#9;other elves. Unlike other elves, they are arrogant and will</p>
+    <p>&#9;occasionally(40% chance) irritate someone beyond the limit,</p>
+    <p>&#9;at which time that someone will probably take violent action</p>
+    <p>&#9;against the elf. Noble elves are taller than others(5' avg.).</p>
+    <p>&#9;They will tend to wear expensive clothing and gain a +1d20</p>
+    <p>&#9;bonus to starting money. Noble elves cannot be warriors.</p>
+    <p>Wood Elf</p>
+    <p>&#9;Wood elves are the woodland species of elf. They are very</p>
+    <p>&#9;quiet when in the woods(RACIAL SKILL: Move Silently: Woods 45%).</p>
+    <p>&#9;They are never arrogant, although they are extremely wary</p>
+    <p>&#9;of nonelven races. Wood elves tend to be dressed in handmade</p>
+    <p>&#9;forestcolored clothing(like deerhide jackets, etc.). They</p>
+    <p>&#9;are best suited as scouts or wardens(+1 to experience earned</p>
+    <p>&#9;if the wood elf is a scout or warden).</p>
+    <p>Sand Elf</p>
+    <p>&#9;Sand elves, or desert elves as they are called by humans,</p>
+    <p>&#9;are the most enigmatic of the elves. They do not obey laws</p>
+    <p>&#9;set out by noble elves. Sand elves have a nomadic social</p>
+    <p>&#9;structure based on family groups, or clans. They are very</p>
+    <p>&#9;hard to spot in the desert(RACIAL SKILL: Invisibility: Desert 65%).</p>
+    <p>&#9;Rarely will a sand elf leave the desert. They have a dark</p>
+    <p>&#9;complexion and dress in sand-colored clothing. </p>
+    <p>Dark Elf</p>
+    <p>&#9;Dark elves are the most dangerous of elves. Like the</p>
+    <p>&#9;sand elves, they don't obey noble elf laws. Unlike the</p>
+    <p>&#9;other elves, dark elves live underground. They hate</p>
+    <p>&#9;sunlight(-10% to all rolls when in sunlight). Dark elves</p>
+    <p>&#9;have black skin, white hair, and red or dark purple eyes.</p>
+    <p>&#9;They wear clothing made of black hide that is believed</p>
+    <p>&#9;to come from an unknown type of predator that lives deep</p>
+    <p>&#9;underground. Dark elves will ALWAYS be of an evil alignment,</p>
+    <p>&#9;and are hated by all other elves. They can, however, see</p>
+    <p>&#9;in the dark(RACIAL SKILL: Nightvision 50%). </p>
+    <i>
+        <p>Dwarf</p>
+    </i>
+    <p>Bonuses: +10% to Manual Dexterity, RACIAL SKILL: Craft Weapon: Axe 45%, +1d4 LFP</p>
+    <p>Penalties: -100% to Magical Aptitude! Dwarves CANNOT use magic!</p>
+    <p>Dwarves are short, stocky fellows. They love metal, and they are</p>
+    <p>recognized as the world's greatest smiths. They tend to be about </p>
+    <p>5' tall and weigh around 180 lbs. </p>
+    <p>Subspecies:</p>
+    <p>Mountain Dwarf</p>
+    <p>&#9;Mountain dwarves are the most common type of dwarf. They live</p>
+    <p>&#9;underground in mountains. They are the greatest smiths of all</p>
+    <p>&#9;the dwarven race(RACIAL SKILL: Craft Weapon or Craft Armor 55%)</p>
+    <p>&#9;Mountain dwarves are friendly to all other dwarves except the</p>
+    <p>&#9;shadow dwarves. They usually dress in leather and rough cloth.</p>
+    <p>Plains Dwarf</p>
+    <p>&#9;Plains dwarves are the only type of dwarf that live above ground.</p>
+    <p>&#9;They love the sunlight and build large cities. Like mountain dwarves,</p>
+    <p>&#9;they HATE shadow dwarves(40% chance of attacking a shadow dwarf on sight).</p>
+    <p>&#9;Plains dwarves are taller than other dwarves(about 5'3"), but weigh</p>
+    <p>&#9;about the same. They appreciate worldly goods, and usually dress in</p>
+    <p>&#9;light, fine cloth. </p>
+    <p>Shadow Dwarf</p>
+    <p>&#9;Shadow dwarves are the dwarven equivalent of dark elves. They hold</p>
+    <p>&#9;a fierce hatred of all other dwarves, and will(100% chance) attack</p>
+    <p>&#9;any kin they see(this includes other shadow dwarves). They have no</p>
+    <p>&#9;social structure, but seem to be able to control some part of their</p>
+    <p>&#9;evil nature. Unlike dark elves, they are not completely ruled by evil.</p>
+    <p>&#9;Shadow dwarves dress in black and dark grey clothing. Their hair is</p>
+    <p>&#9;usually a pale grey to white, and their eyes are black. They have pale</p>
+    <p>&#9;gray skin.</p>
+    <u>
+        <p>Occupations</p>
+    </u>
+    <i>
+        <p>Warriors</p>
+    </i>
+    <p>Knight</p>
+    <p>Requirements: Physical Strength 70%</p>
+    <p>&#9; &#9; Manual Dexterity 40%</p>
+    <p>&#9;&#9; Bravery 45%</p>
+    <p>&#9;&#9; Endurance 75%</p>
+    <p>Allowed races: Human</p>
+    <p>Starting Money: 1d10x100 gold</p>
+    <p>Starting Equipment: Chain mail, long sword, horse, lance</p>
+    <p>Occupational Skills: Swordplay 45+1d10%, Jousting 35+1d20%</p>
+    <p>Knights make up a large portion of human armies. Player knights</p>
+    <p>who are adventuring are usually either Questing Knights or Rogue Knights.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 1.5(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9;Questing Knight</p>
+    <p>&#9; Questing Knights are those knights who take up a quest. This</p>
+    <p>&#9; quest is given to the knight by a god(dess). Hence, the Gamemaster</p>
+    <p>&#9; will assign the quest. It must be something that requires the</p>
+    <p>&#9; maximum effort by the player, but nothing so difficult that a starting</p>
+    <p>&#9; character cannot achieve it.</p>
+    <p>&#9;Rogue Knight</p>
+    <p>&#9; Rogue Knights are outlaws, knights who have shunned honor and chivalry</p>
+    <p>&#9; in favor of fame and riches. They are hunted by other knights, and are</p>
+    <p>&#9; never welcome in towns where the knight is known of. </p>
+    <p>&#9;Soldier Knight</p>
+    <p>&#9; This is the typical knight. Soldier Knights can only be played by a</p>
+    <p>&#9; player if the other players are also Soldier Knights. </p>
+    <p>Mercenary </p>
+    <p>Requirements: Physical Strength 50%</p>
+    <p>&#9;&#9; Bravery 30%</p>
+    <p>Allowed races: All</p>
+    <p>Starting Money: 2d20 gold</p>
+    <p>Starting Equipment: Leather armor, Short sword</p>
+    <p>Occupational Skills: Tracking 35+1d10%, Bartering 25+1d20%, Swordplay 30+1d8%</p>
+    <p>Mercenaries are warriors who roam the countryside looking for someone</p>
+    <p>to hire them as extra help in a war or just as raiders. Most often they</p>
+    <p>will be willing to work for anyone, as long as the pay is good.</p>
+    <p>Gamemasters should determine how much a mercenary is paid depending on the</p>
+    <p>job they are given.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 1.25(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9;Regular mercenary</p>
+    <p>&#9;Bounty Hunter</p>
+    <p>&#9; Bounty hunters are mercenaries who look for only one person. They</p>
+    <p>&#9; are usually hired by desperate law enforcement agencies who want</p>
+    <p>&#9; to capture or eliminate a specific criminal. </p>
+    <p>Warden</p>
+    <p>Requirements: Perception 55%</p>
+    <p>&#9;&#9; Bravery 35%</p>
+    <p>&#9;&#9; Intuition 35%</p>
+    <p>Allowed races: All but dwarves</p>
+    <p>Starting money: 1d10 gold</p>
+    <p>Starting equipment: Short sword, leather armor, dagger, long bow, 50 arrows, </p>
+    <p>&#9;&#9;&#9; quiver</p>
+    <p>Occupational Skills: Tracking 60+1d10%, Swordplay 25+1d20%, </p>
+    <p>&#9;&#9;&#9; Move Silently: Woods 35+1d10%, Forest Knowledge 35+1d20%</p>
+    <p>Wardens are, for the most part, protectors of the forest. They are known</p>
+    <p>for their skill as fighters, but also for their fierce defense of the woods.</p>
+    <p>Wood elves make up about 90% of the wardens.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 1.25(round up)</p>
+    <p>Suboccupations: </p>
+    <p>&#9; Regular Warden</p>
+    <p>Adventurer</p>
+    <p>Requirements: Bravery 60%</p>
+    <p>Allowed Races: All</p>
+    <p>Starting money: 1d10x5 gold</p>
+    <p>Starting equipment: Leather armor, hand axe OR short sword</p>
+    <p>Occupational Skills: None</p>
+    <p>Adventurers are the most basic type of warrior. They are</p>
+    <p>the brave few that decide just to go have adventures. </p>
+    <p>Life Force Point Modifier: No modifier.</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Adventurer</p>
+    <i>
+        <p>Wizards</p>
+    </i>
+    <p>NOTE: All wizards can use any weapon they want, and wear any armor they want, but if the armor/weapon is made of
+        any kind of metal, they CANNOT cast spells while they</p>
+    <p>wear/wield it.</p>
+    <p>Terramancer</p>
+    <p>Requirements: Magical Aptitude 70%</p>
+    <p>&#9;&#9; Intelligence 55% </p>
+    <p>&#9;&#9; Willpower 60%</p>
+    <p>Allowed Races: All but dwarves</p>
+    <p>Starting money: NONE</p>
+    <p>Starting equipment: Green wizard's robes, oak staff</p>
+    <p>Occupational Skills: Arcane Knowledge: Terramancy 45%</p>
+    <p>&#9;&#9;&#9; Magic Use: Terramancy 50%</p>
+    <p>Terramancers are the mages that control the magic of</p>
+    <p>Earth. They can influence all earth-related things.</p>
+    <p>A bonus that earth mages recieve is long life. If they</p>
+    <p>don't get killed, they will live indefinitely. </p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Terramancer</p>
+    <p>Ventimancer</p>
+    <p>Requirements: Magical Aptitude 50%</p>
+    <p>&#9; Intelligence 60%</p>
+    <p>&#9;&#9; Willpower 50%</p>
+    <p>Allowed Races: All but dwarves</p>
+    <p>Starting money: NONE</p>
+    <p>Starting equipment: White wizard's robes, oak staff</p>
+    <p>Occupational Skills: Arcane Knowledge: Ventimancy 55%,</p>
+    <p>&#9;&#9; Magic Use: Ventimancy 60%</p>
+    <p>Ventimancers are wind mages. They control storms and</p>
+    <p>other forms of wind. Ventimancers are very dangerous.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Ventimancer</p>
+    <p>Pyromancer</p>
+    <p>Requirements: Magical Aptitude 60%</p>
+    <p>Intelligence 60%</p>
+    <p>&#9;&#9; Willpower 60%</p>
+    <p>Allowed Races: All but dwarves</p>
+    <p>Starting money: NONE</p>
+    <p>Starting equipment: Red wizard's robes</p>
+    <p>Occupational Skills: Arcane Knowledge: Pyromancy 60%</p>
+    <p>&#9;&#9;&#9; Magic Use: Pyromancy 50%</p>
+    <p>Pyromancers are masters of fire. They are the mages</p>
+    <p>that conjure fireballs and rains of fire to destroy</p>
+    <p>their enemies. They are in high demand during wartime.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Pyromancer</p>
+    <p>Hydromancer</p>
+    <p>Requirements: Magical Aptitude 55%</p>
+    <p>&#9;&#9; Intelligence 70%</p>
+    <p>&#9;&#9; Willpower 65%</p>
+    <p>Allowed Races: All but dwarves</p>
+    <p>Starting money: NONE</p>
+    <p>Starting equipment: Blue wizard's robes</p>
+    <p>Occupational Skills: Arcane Knowledge: Hydromancy 50%</p>
+    <p>&#9;&#9;&#9; Magic Use: Hydromancy 60%</p>
+    <p>Hydromancers are the mages that have mastered water</p>
+    <p>control. They can summon tidal waves or call much-needed</p>
+    <p>rains. Sometimes they work with ventimancers.</p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Hydromancer</p>
+    <p>Necromancer</p>
+    <p>Requirements: Magical Aptitude 75%</p>
+    <p>Intelligence 75%</p>
+    <p>&#9;&#9; Willpower 90%</p>
+    <p>&#9;&#9; Endurance 60%</p>
+    <p>Allowed Races: Dark elves and EVIL humans ONLY</p>
+    <p>Starting money: NONE</p>
+    <p>Starting equipment: Black wizard's robes, bone staff, dagger</p>
+    <p>Occupational Skills: Arcane Knowledge: Necromancy 30%</p>
+    <p>&#9;&#9;&#9; Magic Use: Necromany 35%</p>
+    <p>Necromancers are the darkest, most evil of the wizards.</p>
+    <p>They control the power to animate the dead and speak</p>
+    <p>with the dead. There is only a 10% chance that a necromancer</p>
+    <p>will be good-aligned(roll for this if the player wants it).</p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.5(round up)</p>
+    <p>Suboccupations:</p>
+    <p>Regular Necromancer</p>
+    <p>&#9; Shaman</p>
+    <p>&#9; Shamans are necromancers who ONLY talk to the dead. They</p>
+    <p>&#9; do not have any other necromantic powers. Shamans can</p>
+    <p>&#9; be of a good alignment.</p>
+    <i>
+        <p>Rogues</p>
+    </i>
+    <p>Thief</p>
+    <p>Requirements: Manual Dexterity 50%</p>
+    <p>&#9;&#9; Agility 45%</p>
+    <p>Allowed Races: All</p>
+    <p>Starting money: 1d4 gold</p>
+    <p>Starting equipment: Leather armor, dagger, belt pouch</p>
+    <p>Occupational Skills: Robbery 50%, Hide in Shadows 45%</p>
+    <p>&#9;&#9;&#9; Move Silently: Urban 35%</p>
+    <p>Thieves are the dregs of society. They steal and</p>
+    <p>sometimes murder to further their own gains, and have</p>
+    <p>very few ethics. </p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Regular Thief</p>
+    <p>Rogue Knight</p>
+    <p>See Rogue Knight in Warriors category</p>
+    <p>Bard</p>
+    <p>Requirements: Manual Dexterity 80%</p>
+    <p>Allowed Races: All</p>
+    <p>Starting money: 1d10 gold</p>
+    <p>Starting equipment: Musical instrument of choice, clothing of choice</p>
+    <p>Occupational Skills: Sing 75%, Play Instrument 60%</p>
+    <p>Bards are the musicians of this world. They wander from</p>
+    <p>town to town, playing or singing for people. A bard can</p>
+    <p>obtain a job playing for local nobility, with the Gamemaster</p>
+    <p>setting the salary earned. </p>
+    <p>Life Force Point Modifier: Multiply LFP times 0.75(round up)</p>
+    <p>Suboccupations:</p>
+    <p>&#9; Roaming Bard</p>
+    <p>&#9; Roaming bards are the musicians who wander from town</p>
+    <p>&#9; to town, gaining money only when people throw it to</p>
+    <p>&#9; them.</p>
+    <p>&#9; Stationary Bard</p>
+    <p>&#9; Stationary bards are those that stay in one place,</p>
+    <p>&#9; hired by the local nobility to play for them.</p>
+    <p>&#9; </p>
+    <u>
+        <p>Additional Character Generation Information</p>
+    </u>
+    <p>When you create a character, also include this information:</p>
+    <p>Weight</p>
+    <p>Height</p>
+    <p>Sex</p>
+    <p>Disposition(examples include cold, friendly, etc.)</p>
+    <p>Outlook(Optimistic, Pessimistic, or Indifferent)</p>
+    <p>Alignment(Good, Evil, or Neutral)</p>
+    <p>Insanities(Mostly likely(80%) none, but may include phobias, obsessions, etc.)</p>
+    <p>Hair Color</p>
+    <p>Eye Color</p>
+    <p>Skin Color</p>
+    <p>Overall Appearance</p>
+    <p>Parents(1 dead, both dead, both alive, or unknown to character)</p>
+    <h2>Combat</h2>
+    </b>
+    <p>As explained above, all weapons have a maneuver chance of success. When a roll is successful, then the user hits
+        the target. However, the target can ALSO roll weapon maneuver to block the attack. If the target still fails,
+        then the attacker rolls the d
+        amage of the weapon. If the target is wearing armor, then the armor will take the damage before the target(roll
+        maneuver chance of success for armor as well, and if the result is less than the percent of the attack's chance
+        of success, then the armor is b
+        reached and the target takes damage. If the result is more than said percent, then the armor is strong enough to
+        deflect the attack) if the armor roll is successful. Each type of armor has an amount of armor points that are
+        taken away when damage is done
+        to the armor.&nbsp;</p>
+    <p>When a character's(player or nonplayer) Life Force Points reaches 0, the character is knocked unconscious. When
+        the character's LFP reaches -5, the character is killed. Killed characters cannot be healed. </p>
+    <p>EXAMPLE OF COMBAT: Continuing Drygar's battle with the orc:</p>
+    <p>&#9;&#9; The orc failed his roll to deflect Drygar's attack,</p>
+    <p>&#9;&#9; so now he takes damage. Drygar rolls a 4 on</p>
+    <p>&#9;&#9; 1d6(the mace's damage roll). The orc is wearing</p>
+    <p>&#9;&#9; leather armor, which has 5 Armor Points. It fails its armor roll.</p>
 
-<p> That leaves the orc with only 1 Armor Point remaining.</p></dir>
-</dir>
-</dir>
-</dir>
+    <p> That leaves the orc with only 1 Armor Point remaining.</p>
 
-<p>&#9;&#9; Time for retaliation! The orc rolls to hit Drygar,</p>
-<p>&#9;&#9; getting a 53%. However, since the orc was attempting</p>
-<p>&#9;&#9; an Average maneuver, he misses Drygar completely.</p>
-<p>&#9;&#9; Drygar brings his mace around again, and successfully</p>
-<p>&#9;&#9; rolls to hit the orc with a Hard maneuver. The orc</p>
-<p>&#9;&#9; tries to block the attack. He needs a 24%.</p>
-<p>&#9;&#9; Rolls....the orc gets a 21%, successfully blocking</p>
-<p>&#9;&#9; the attack. Now the orc strikes again, this time</p>
-<p>&#9;&#9; successfully. He also manages to get past Drygar's</p>
-<p>&#9;&#9; blocking attempt, and his armor roll, and rolls 1d8(scimitar damage),</p>
-<p>&#9;&#9; getting an 8! Drygar has chain mail, which has</p>
-<p>&#9;&#9; 20 Armor Points. The chain mail is reduced to 12</p>
-<p>&#9;&#9; Armor Points. Drygar's counterattack hits and gets</p>
-<p>&#9;&#9; past the orc's block, and his armor roll, and Drygar rolls damage again.</p>
-<p>&#9;&#9; This time he gets a 5, and destroys the orc's armor.</p>
-<p>&#9;&#9; Also, he knocks the orc unconscious, since he only</p>
-<p>&#9;&#9; had 4 LFP. Unwilling to be attacked again, Drygar</p>
-<p>&#9;&#9; rolls to hit, the orc fails its armor roll, and Drygar rolls damage(no blocking roll),</p><dir>
-<dir>
-<dir>
-<dir>
+    <p>&#9;&#9; Time for retaliation! The orc rolls to hit Drygar,</p>
+    <p>&#9;&#9; getting a 53%. However, since the orc was attempting</p>
+    <p>&#9;&#9; an Average maneuver, he misses Drygar completely.</p>
+    <p>&#9;&#9; Drygar brings his mace around again, and successfully</p>
+    <p>&#9;&#9; rolls to hit the orc with a Hard maneuver. The orc</p>
+    <p>&#9;&#9; tries to block the attack. He needs a 24%.</p>
+    <p>&#9;&#9; Rolls....the orc gets a 21%, successfully blocking</p>
+    <p>&#9;&#9; the attack. Now the orc strikes again, this time</p>
+    <p>&#9;&#9; successfully. He also manages to get past Drygar's</p>
+    <p>&#9;&#9; blocking attempt, and his armor roll, and rolls 1d8(scimitar damage),</p>
+    <p>&#9;&#9; getting an 8! Drygar has chain mail, which has</p>
+    <p>&#9;&#9; 20 Armor Points. The chain mail is reduced to 12</p>
+    <p>&#9;&#9; Armor Points. Drygar's counterattack hits and gets</p>
+    <p>&#9;&#9; past the orc's block, and his armor roll, and Drygar rolls damage again.</p>
+    <p>&#9;&#9; This time he gets a 5, and destroys the orc's armor.</p>
+    <p>&#9;&#9; Also, he knocks the orc unconscious, since he only</p>
+    <p>&#9;&#9; had 4 LFP. Unwilling to be attacked again, Drygar</p>
+    <p>&#9;&#9; rolls to hit, the orc fails its armor roll, and Drygar rolls damage(no blocking roll),</p>
+    <dir>
+        <dir>
+            <dir>
+                <dir>
 
-<p> getting a 6 and killing the orc.</p></dir>
-</dir>
-</dir>
-</dir>
+                    <p> getting a 6 and killing the orc.</p>
+                </dir>
+            </dir>
+        </dir>
+    </dir>
 
-<p>&nbsp;</p>
-<b><font size="4"><p>Magic</p>
-</b></font><p>&nbsp;</p>
-<p>Magic in the Iridium system is handled in this way:</p>
-<p>&nbsp;</p>
-<p>The mage's player rolls To Tap first, to determine if he</p>
-<p>can tap the natural energies flowing around him:</p>
-<p>&nbsp;</p>
-<p>To Tap</p>
-<p>Roll against the mage's Use Magic skill. If this is successful,</p>
-<p>then the mage taps the energy.</p>
-<p>&nbsp;</p>
-<p>The second step in using magic is to determine what the mage is</p>
-<p>trying to do. For the example, I will use a pyromancer as the mage.</p>
-<p>&nbsp;</p>
-<p>He wants to create a wall of fire in front of a cave. </p>
-<p>&nbsp;</p>
-<p>The Gamemaster then determines what Skill Level this spell is at,</p>
-<p>and the character uses his Arcane Knowledge modifier and rolls </p>
-<p>against his Use Magic score. Here are the tables mentioned:</p>
-<p>&nbsp;</p>
-<p>Skill Level&#9;Modifier to Use Magic Roll</p>
-<p>Very Easy&#9;+20%</p>
-<p>Easy&#9;&#9;+10%</p>
-<p>Average&#9;0</p>
-<p>Hard&#9;&#9;-10%</p>
-<p>Very Hard&#9;-20%</p>
-<p>Heroic&#9;&#9;-40%</p>
-<p>&nbsp;</p>
-<p>Arcane Knowledge Percentage&#9;Modifier</p>
-<p>1-20%&#9;&#9;&#9;&#9;&#9;-20%</p>
-<p>21-40%&#9;&#9;&#9;&#9;-10%</p>
-<p>41-60%&#9;&#9;&#9;&#9;0</p>
-<p>61-80%&#9;&#9;&#9;&#9;+10%</p>
-<p>81-99%&#9;&#9;&#9;&#9;+20%</p>
-<p>100%&#9;&#9;&#9;&#9;&#9;+30%</p>
-<p>&nbsp;</p>
-<p>EXAMPLE: Lorith Nightaxe, a pyromancer, wants to cover</p>
-<p>&#9; a cave entrance with a wall of fire. The Gamemaster</p>
-<p>&#9; decides this is a Hard task, since the cave opening is</p>
-<p>&#9; rather large. Lorith has an Arcane Knowledge: Pyromancy</p>
-<p>&#9; score of 56%. With the modifiers, it becomes 46%. Lorith</p>
-<p>&#9; rolls a 67%, failing the spell.</p>
-<p>&nbsp;</p>
-<i><p>Spell Failures</p>
-</i><p>&nbsp;</p>
-<p>If a spell isn't completed, but the energy was tapped, then check</p>
-<p>this table to see what happens:</p>
-<p>&nbsp;</p>
-<p>Failure Intensity&#9;Effect</p>
-<p>1-30% off&#9;&#9;No effect; energy dissipates</p>
-<p>31-50% off&#9;&#9;Spell backfires and hits caster with 1/4 normal effects</p>
-<p>51-60% off&#9;&#9;Spell backfires and hits caster with 1/2 normal effects</p>
-<p>61-70% off&#9;&#9;Spell backfires and hits caster with full effects</p>
-<p>71+% off&#9;&#9;FEEDBACK! Energy does <i>4 x effects</i> to everything within &#9;&#9;&#9;&#9;</p><dir>
-<dir>
-<dir>
-<dir>
+    <h2>Magic</h2>
+    </b>
+    <p>Magic in the Iridium system is handled in this way:</p>
+    <p>The mage's player rolls To Tap first, to determine if he</p>
+    <p>can tap the natural energies flowing around him:</p>
+    <p>To Tap</p>
+    <p>Roll against the mage's Use Magic skill. If this is successful,</p>
+    <p>then the mage taps the energy.</p>
+    <p>The second step in using magic is to determine what the mage is</p>
+    <p>trying to do. For the example, I will use a pyromancer as the mage.</p>
+    <p>He wants to create a wall of fire in front of a cave. </p>
+    <p>The Gamemaster then determines what Skill Level this spell is at,</p>
+    <p>and the character uses his Arcane Knowledge modifier and rolls </p>
+    <p>against his Use Magic score. Here are the tables mentioned:</p>
+    <p>Skill Level&#9;Modifier to Use Magic Roll</p>
+    <p>Very Easy&#9;+20%</p>
+    <p>Easy&#9;&#9;+10%</p>
+    <p>Average&#9;0</p>
+    <p>Hard&#9;&#9;-10%</p>
+    <p>Very Hard&#9;-20%</p>
+    <p>Heroic&#9;&#9;-40%</p>
+    <p>Arcane Knowledge Percentage&#9;Modifier</p>
+    <p>1-20%&#9;&#9;&#9;&#9;&#9;-20%</p>
+    <p>21-40%&#9;&#9;&#9;&#9;-10%</p>
+    <p>41-60%&#9;&#9;&#9;&#9;0</p>
+    <p>61-80%&#9;&#9;&#9;&#9;+10%</p>
+    <p>81-99%&#9;&#9;&#9;&#9;+20%</p>
+    <p>100%&#9;&#9;&#9;&#9;&#9;+30%</p>
+    <p>EXAMPLE: Lorith Nightaxe, a pyromancer, wants to cover</p>
+    <p>&#9; a cave entrance with a wall of fire. The Gamemaster</p>
+    <p>&#9; decides this is a Hard task, since the cave opening is</p>
+    <p>&#9; rather large. Lorith has an Arcane Knowledge: Pyromancy</p>
+    <p>&#9; score of 56%. With the modifiers, it becomes 46%. Lorith</p>
+    <p>&#9; rolls a 67%, failing the spell.</p>
+    <i>
+        <p>Spell Failures</p>
+    </i>
+    <p>If a spell isn't completed, but the energy was tapped, then check</p>
+    <p>this table to see what happens:</p>
+    <p>Failure Intensity&#9;Effect</p>
+    <p>1-30% off&#9;&#9;No effect; energy dissipates</p>
+    <p>31-50% off&#9;&#9;Spell backfires and hits caster with 1/4 normal effects</p>
+    <p>51-60% off&#9;&#9;Spell backfires and hits caster with 1/2 normal effects</p>
+    <p>61-70% off&#9;&#9;Spell backfires and hits caster with full effects</p>
+    <p>71+% off&#9;&#9;FEEDBACK! Energy does <i>4 x effects</i> to everything within &#9;&#9;&#9;&#9;</p>
+    <dir>
+        <dir>
+            <dir>
+                <dir>
 
-<p>&#9;3d20 yards of caster(including caster)</p></dir>
-</dir>
-</dir>
-</dir>
+                    <p>&#9;3d20 yards of caster(including caster)</p>
+                </dir>
+            </dir>
+        </dir>
+    </dir>
 
-<p>&nbsp;</p>
-<i><p>Spell Experience</p>
-</i><p>&nbsp;</p>
-<p>When a spell is successfully completed, the caster recieves Spell Experience. Like other experience, when it reaches 100 it is reset and the character can modify things. </p>
-<p>Spell experience can be used to add to either his Arcane Knowledge or Use Magic skill. It cannot be used to gain new skills, unless the new skill is related to the caster's field of magic. EXAMPLE: A new skill for a terramancer might be Detect Rock Ins
-tability. However, Spell Experience may be used to add to Life Force Points. The caster may add 1d10 LFP every time his spell experience is upgraded.</p>
-<p>&nbsp;</p>
-<p>Spell Difficulty&#9;Experience Points Recieved</p>
-<p>Very Easy&#9;&#9;1</p>
-<p>Easy&#9;&#9;&#9;2</p>
-<p>Average&#9;&#9;3</p>
-<p>Hard&#9;&#9;&#9;4</p>
-<p>Very Hard&#9;&#9;5</p>
-<p>Heroic&#9;&#9;&#9;10</p>
-<p>&nbsp;</p>
-<b><font size="4"><p>Equipment</p>
-</b></font><p>&nbsp;</p>
-<p>These are the equipment lists for Iridium Fantasy.</p>
-<p>&nbsp;</p>
-<p>WEAPONS</p>
-<p>Weapon&#9;&#9;Damage&#9;Cost</p>
-<p>Dagger&#9;&#9;&#9;1d4&#9;&#9;5 gold</p>
-<p>Hand Axe&#9;&#9;1d4+1&#9;&#9;7 gold</p>
-<p>Club&#9;&#9;&#9;1d4+2&#9;&#9;9 gold</p>
-<p>Mace&#9;&#9;&#9;1d6&#9;&#9;10 gold</p>
-<p>Scimitar&#9;&#9;1d8&#9;&#9;12 gold</p>
-<p>Short sword&#9;&#9;1d6+2&#9;&#9;15 gold</p>
-<p>Long sword&#9;&#9;2d6&#9;&#9;20 gold</p>
-<p>Broadsword&#9;&#9;2d6+1&#9;&#9;23 gold</p>
-<p>Warhammer&#9;&#9;2d6+2&#9;&#9;24 gold</p>
-<p>Battle Axe&#9;&#9;3d6&#9;&#9;30 gold</p>
-<p>Bow&#9;&#9;&#9;--&#9;&#9;40 gold</p>
-<p>Arrows(25)&#9;&#9;1d6x2&#9;&#9;20 gold</p>
-<p>&nbsp;</p>
-<p>ARMOR</p>
-<table cellspacing="0" border="0" cellpadding="7" width="638">
-<tr><td width="33%" valign="TOP">
-<p>Armor</td>
-<td width="33%" valign="TOP">
-<p>Armor Points</td>
-<td width="33%" valign="TOP">
-<p>Cost</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Robes</td>
-<td width="33%" valign="TOP">
-<p>1</td>
-<td width="33%" valign="TOP">
-<p>2 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Leather</td>
-<td width="33%" valign="TOP">
-<p>5</td>
-<td width="33%" valign="TOP">
-<p>10 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Chain Mail</td>
-<td width="33%" valign="TOP">
-<p>20</td>
-<td width="33%" valign="TOP">
-<p>50 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Half Plate</td>
-<td width="33%" valign="TOP">&nbsp;</td>
-<td width="33%" valign="TOP">
-<p>250 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Full Plate</td>
-<td width="33%" valign="TOP">&nbsp;</td>
-<td width="33%" valign="TOP">
-<p>1250 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Field Plate</td>
-<td width="33%" valign="TOP">&nbsp;</td>
-<td width="33%" valign="TOP">
-<p>6300 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Battle Suit</td>
-<td width="33%" valign="TOP">&nbsp;</td>
-<td width="33%" valign="TOP">
-<p>31500 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Leather Helmet</td>
-<td width="33%" valign="TOP">
-<p>+1</td>
-<td width="33%" valign="TOP">
-<p>3 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Bronze Helmet</td>
-<td width="33%" valign="TOP">
-<p>+2</td>
-<td width="33%" valign="TOP">
-<p>6 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Iron Helmet</td>
-<td width="33%" valign="TOP">
-<p>+3</td>
-<td width="33%" valign="TOP">
-<p>9 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Leather Gloves</td>
-<td width="33%" valign="TOP">
-<p>+1</td>
-<td width="33%" valign="TOP">
-<p>3 gold</td>
-</tr>
-<tr><td width="33%" valign="TOP">
-<p>Gauntlets</td>
-<td width="33%" valign="TOP">
-<p>+4</td>
-<td width="33%" valign="TOP">
-<p>15 gold</td>
-</tr>
-</table>
+    <i>
+        <p>Spell Experience</p>
+    </i>
+    <p>When a spell is successfully completed, the caster recieves Spell Experience. Like other experience, when it
+        reaches 100 it is reset and the character can modify things. </p>
+    <p>Spell experience can be used to add to either his Arcane Knowledge or Use Magic skill. It cannot be used to gain
+        new skills, unless the new skill is related to the caster's field of magic. EXAMPLE: A new skill for a
+        terramancer might be Detect Rock Ins
+        tability. However, Spell Experience may be used to add to Life Force Points. The caster may add 1d10 LFP every
+        time his spell experience is upgraded.</p>
+    <p>Spell Difficulty&#9;Experience Points Recieved</p>
+    <p>Very Easy&#9;&#9;1</p>
+    <p>Easy&#9;&#9;&#9;2</p>
+    <p>Average&#9;&#9;3</p>
+    <p>Hard&#9;&#9;&#9;4</p>
+    <p>Very Hard&#9;&#9;5</p>
+    <p>Heroic&#9;&#9;&#9;10</p>
+    <h2>Equipment</h2>
+    </b>
+    <p>These are the equipment lists for Iridium Fantasy.</p>
+    <p>WEAPONS</p>
+    <p>Weapon&#9;&#9;Damage&#9;Cost</p>
+    <p>Dagger&#9;&#9;&#9;1d4&#9;&#9;5 gold</p>
+    <p>Hand Axe&#9;&#9;1d4+1&#9;&#9;7 gold</p>
+    <p>Club&#9;&#9;&#9;1d4+2&#9;&#9;9 gold</p>
+    <p>Mace&#9;&#9;&#9;1d6&#9;&#9;10 gold</p>
+    <p>Scimitar&#9;&#9;1d8&#9;&#9;12 gold</p>
+    <p>Short sword&#9;&#9;1d6+2&#9;&#9;15 gold</p>
+    <p>Long sword&#9;&#9;2d6&#9;&#9;20 gold</p>
+    <p>Broadsword&#9;&#9;2d6+1&#9;&#9;23 gold</p>
+    <p>Warhammer&#9;&#9;2d6+2&#9;&#9;24 gold</p>
+    <p>Battle Axe&#9;&#9;3d6&#9;&#9;30 gold</p>
+    <p>Bow&#9;&#9;&#9;--&#9;&#9;40 gold</p>
+    <p>Arrows(25)&#9;&#9;1d6x2&#9;&#9;20 gold</p>
+    <p>ARMOR</p>
+    <table cellspacing="0" border="0" cellpadding="7" width="638">
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Armor
+            </td>
+            <td width="33%" valign="TOP">
+                <p>Armor Points
+            </td>
+            <td width="33%" valign="TOP">
+                <p>Cost
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Robes
+            </td>
+            <td width="33%" valign="TOP">
+                <p>1
+            </td>
+            <td width="33%" valign="TOP">
+                <p>2 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Leather
+            </td>
+            <td width="33%" valign="TOP">
+                <p>5
+            </td>
+            <td width="33%" valign="TOP">
+                <p>10 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Chain Mail
+            </td>
+            <td width="33%" valign="TOP">
+                <p>20
+            </td>
+            <td width="33%" valign="TOP">
+                <p>50 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Half Plate
+            </td>
+            <td width="33%" valign="TOP">&nbsp;</td>
+            <td width="33%" valign="TOP">
+                <p>250 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Full Plate
+            </td>
+            <td width="33%" valign="TOP">&nbsp;</td>
+            <td width="33%" valign="TOP">
+                <p>1250 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Field Plate
+            </td>
+            <td width="33%" valign="TOP">&nbsp;</td>
+            <td width="33%" valign="TOP">
+                <p>6300 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Battle Suit
+            </td>
+            <td width="33%" valign="TOP">&nbsp;</td>
+            <td width="33%" valign="TOP">
+                <p>31500 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Leather Helmet
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+1
+            </td>
+            <td width="33%" valign="TOP">
+                <p>3 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Bronze Helmet
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+2
+            </td>
+            <td width="33%" valign="TOP">
+                <p>6 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Iron Helmet
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+3
+            </td>
+            <td width="33%" valign="TOP">
+                <p>9 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Leather Gloves
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+1
+            </td>
+            <td width="33%" valign="TOP">
+                <p>3 gold
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" valign="TOP">
+                <p>Gauntlets
+            </td>
+            <td width="33%" valign="TOP">
+                <p>+4
+            </td>
+            <td width="33%" valign="TOP">
+                <p>15 gold
+            </td>
+        </tr>
+    </table>
 
-<p>&nbsp;</p>
-<p>GENERAL</p>
-<p>Name&#9;&#9;Use&#9;&#9;Cost</p>
-<p>Food&#9;&#9;to eat!&#9;&#9;1 gold per day's worth</p>
-<p>Water&#9;&#9;to drink!&#9;1 gold per week's worth</p>
-<p>Waterskin&#9;to carry water&#9;2 gold</p>
-<p>Rope&#9;&#9;tying stuff&#9;1 gold per 20 feet</p>
-<p>Clothing&#9;to wear&#9;            1 gold</p>
-<p>Bottle&#9;&#9;hold liquid in&#9;2 gold</p>
-<p>Pouch&#9;&#9;hold solids in&#9;1 gold</p>
-<p>Belt&#9;&#9;to wear&#9;1 gold</p>
-<p>Paper&#9;&#9;to write on&#9;5 gold per sheet</p>
-<p>Pen&#9;&#9;to write with&#9;10 gold per bottleful(holds 1 quart of ink)</p>
-<p>Ink&#9;&#9;to write in&#9;6 gold per quart, requires bottle</p>
-<p>Oak Staff&#9;to walk with&#9;4 gold</p>
-<p>Bone Staff&#9;to walk with&#9;5 gold</p>
-<p>Backpack&#9;hold stuff in&#9;5 gold, holds 30 pounds &amp; 1 cubic foot of stuff</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<b><font size="4"><p>Miscellaneous Rules</p>
-</b></font><i><p>&nbsp;</p>
-<p>Monster Creation</p>
-</i><p>&nbsp;</p>
-<p>Since the Iridium system is based on customization, I will leave all monster creation up to you. For now. If this game receives enough attention, I will write a Sourcebook for it that will have a monster list in it, as well as many other things that I 
-may forget to add in this edition. For now, use this format to create monsters:</p>
-<p>&nbsp;</p>
-<p>Name: Monster's name</p>
-<p>LFP: Life Force Points, in dice(2d6, 1d8, etc.)</p>
-<p>Size: Monster's size in height, width, and length</p>
-<p>Weight: Monster's weight</p>
-<p>Speed: Monster's maximum speed in feet per second</p>
-<p>Attacks: Monster's types of attacks, and damage rolls</p>
-<p>Special Abilities: Special abilities such as nightvision, telepathy, etc.</p>
-<p>Movement Type: Flight, slither, etc.</p>
-<p>Appearance: A description of the monster's appearance</p>
-<p>&nbsp;</p>
-<i><p>&nbsp;</p></i>
-<table cellspacing="0" border="0" cellpadding="7" width="590">
-<tr><td valign="TOP" colspan="2" bgcolor="#000080">
-<p><b><i><font size="4">Iridium Fantasy Character Sheet</b></i></font></td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Name:</td>
-<td width="50%" valign="TOP">
-<p>Race:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Occupation:</td>
-<td width="50%" valign="TOP">
-<p>Weight:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Height:</td>
-<td width="50%" valign="TOP">
-<p>Sex:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Disposition:</td>
-<td width="50%" valign="TOP">
-<p>Outlook:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Alignment:</td>
-<td width="50%" valign="TOP">
-<p>Insanities:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Hair Color:</td>
-<td width="50%" valign="TOP">
-<p>Eye Color:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Skin Color:</td>
-<td width="50%" valign="TOP">
-<p>Overall Appearance:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Parents:</td>
-<td width="50%" valign="TOP">
-<p>Life Force Points:</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Money:</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP" bgcolor="#808080">
-<b><p>Attributes</b></td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Manual Dexterity</td>
-<td width="50%" valign="TOP">
-<p>Intelligence</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Willpower</td>
-<td width="50%" valign="TOP">
-<p>Physical Strength</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Physical Beauty</td>
-<td width="50%" valign="TOP">
-<p>Endurance</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Agility</td>
-<td width="50%" valign="TOP">
-<p>Charisma</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Speed</td>
-<td width="50%" valign="TOP">
-<p>Perception</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Magical Aptitude</td>
-<td width="50%" valign="TOP">
-<p>Bravery</td>
-</tr>
-<tr><td width="50%" valign="TOP">&nbsp;</td>
-<td width="50%" valign="TOP">&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP" bgcolor="#808080">
-<b><p>Skills</b></td>
-<td width="50%" valign="TOP" bgcolor="#808080">
-<b><p>Equipment</b></td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>&nbsp;</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP" bgcolor="#808080">
-<b><p>Experience</b></td>
-<td width="50%" valign="TOP">
-<p>----------------------------------------------</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<i><p>Intellectual Categories</i>:</td>
-<td width="50%" valign="TOP">
-<p align="CENTER">------</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Wisdom</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Problem Solving</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Education</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<i><p>Physical Categories</i>:</td>
-<td width="50%" valign="TOP">
-<p align="CENTER">-------</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Manual Work</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Muscle Development</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Reflexes</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<i><p>Weapon Experience</i></td>
-<td width="50%" valign="TOP">
-<p align="CENTER">--------</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Weapon:</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Weapon:</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<p>Weapon:</td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-<tr><td width="50%" valign="TOP">
-<i><p>Spell Experience:</i></td>
-<td width="50%" valign="TOP">
-<p>&nbsp;</td>
-</tr>
-</table>
+    <p>GENERAL</p>
+    <p>Name&#9;&#9;Use&#9;&#9;Cost</p>
+    <p>Food&#9;&#9;to eat!&#9;&#9;1 gold per day's worth</p>
+    <p>Water&#9;&#9;to drink!&#9;1 gold per week's worth</p>
+    <p>Waterskin&#9;to carry water&#9;2 gold</p>
+    <p>Rope&#9;&#9;tying stuff&#9;1 gold per 20 feet</p>
+    <p>Clothing&#9;to wear&#9; 1 gold</p>
+    <p>Bottle&#9;&#9;hold liquid in&#9;2 gold</p>
+    <p>Pouch&#9;&#9;hold solids in&#9;1 gold</p>
+    <p>Belt&#9;&#9;to wear&#9;1 gold</p>
+    <p>Paper&#9;&#9;to write on&#9;5 gold per sheet</p>
+    <p>Pen&#9;&#9;to write with&#9;10 gold per bottleful(holds 1 quart of ink)</p>
+    <p>Ink&#9;&#9;to write in&#9;6 gold per quart, requires bottle</p>
+    <p>Oak Staff&#9;to walk with&#9;4 gold</p>
+    <p>Bone Staff&#9;to walk with&#9;5 gold</p>
+    <p>Backpack&#9;hold stuff in&#9;5 gold, holds 30 pounds &amp; 1 cubic foot of stuff</p>
+    <h2>Miscellaneous Rules</h2>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><hr></p>
-<p><a href="iridium.html">&nbsp;Return to the Iridium System Home Page</a></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<font size="2"><p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p></font>
+    <h3>Monster Creation</h3>
+
+    <p>Since the Iridium system is based on customization, I will leave all monster creation up to you. For now. If this
+        game receives enough attention, I will write a Sourcebook for it that will have a monster list in it, as well as
+        many other things that I
+        may forget to add in this edition. For now, use this format to create monsters:</p>
+    <p>Name: Monster's name</p>
+    <p>LFP: Life Force Points, in dice(2d6, 1d8, etc.)</p>
+    <p>Size: Monster's size in height, width, and length</p>
+    <p>Weight: Monster's weight</p>
+    <p>Speed: Monster's maximum speed in feet per second</p>
+    <p>Attacks: Monster's types of attacks, and damage rolls</p>
+    <p>Special Abilities: Special abilities such as nightvision, telepathy, etc.</p>
+    <p>Movement Type: Flight, slither, etc.</p>
+    <p>Appearance: A description of the monster's appearance</p>
+
+    <table cellspacing="0" border="0" cellpadding="7" width="590">
+        <tr>
+            <th valign="TOP" colspan="2">Iridium Fantasy Character Sheet</th>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Name:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Race:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Occupation:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Weight:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Height:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Sex:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Disposition:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Outlook:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Alignment:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Insanities:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Hair Color:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Eye Color:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Skin Color:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Overall Appearance:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Parents:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Life Force Points:
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Money:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <b>
+                    <p>Attributes
+                </b></td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Manual Dexterity
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Intelligence
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Willpower
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Physical Strength
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Physical Beauty
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Endurance
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Agility
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Charisma
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Speed
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Perception
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Magical Aptitude
+            </td>
+            <td width="50%" valign="TOP">
+                <p>Bravery
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">&nbsp;</td>
+            <td width="50%" valign="TOP">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <b>
+                    <p>Skills
+                </b></td>
+            <td width="50%" valign="TOP">
+                <b>
+                    <p>Equipment
+                </b></td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <b>
+                    <p>Experience
+                </b></td>
+            <td width="50%" valign="TOP">
+                <p>----------------------------------------------
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <i>
+                    <p>Intellectual Categories
+                </i>:</td>
+            <td width="50%" valign="TOP">
+                <p>------
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Wisdom
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Problem Solving
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Education
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <i>
+                    <p>Physical Categories
+                </i>:</td>
+            <td width="50%" valign="TOP">
+                <p>-------
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Manual Work
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Muscle Development
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Reflexes
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <i>
+                    <p>Weapon Experience
+                </i></td>
+            <td width="50%" valign="TOP">
+                <p>--------
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Weapon:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Weapon:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <p>Weapon:
+            </td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="TOP">
+                <i>
+                    <p>Spell Experience:
+                </i></td>
+            <td width="50%" valign="TOP">
+                <p>&nbsp;
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        <hr>
+    </p>
 </body>
+
 </html>
