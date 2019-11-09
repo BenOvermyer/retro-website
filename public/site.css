@@ -1,20 +1,92 @@
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-bold-webfont.woff2') format('woff2'),
+       url('fonts/crimson-bold-webfont.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-bolditalic-webfont.woff2') format('woff2'),
+       url('fonts/crimson-bolditalic-webfont.woff') format('woff');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-italic-webfont.woff2') format('woff2'),
+       url('fonts/crimson-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-roman-webfont.woff2') format('woff2'),
+       url('fonts/crimson-roman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-semibold-webfont.woff2') format('woff2'),
+       url('fonts/crimson-semibold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url('fonts/crimson-semibolditalic-webfont.woff2') format('woff2'),
+       url('fonts/crimson-semibolditalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'tex';
+  src: url('fonts/texgyreadventor-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tex';
+  src: url('fonts/texgyreadventor-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-image: url("img/b-space.gif");
   background-color: #000;
   color: #fff;
-  font-family: Helvetica, Georgia, serif;
+  font-family: 'crimson', Helvetica, Georgia, serif;
   font-size: 16px;
   padding: 1rem;
+}
+
+p, li, td {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+strong {
+  font-weight: bolder;
 }
 
 div#container {
   background-color: #000;
   width: 968px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+h1, h2, h3, h4, h5, h6, th {
+  font-family: 'tex', sans-serif;
 }
 
 h1 {
@@ -40,6 +112,11 @@ h6 {
 
 a {
   color: #fa0;
+}
+
+a.anchor {
+  color: #fff;
+  text-decoration: none;
 }
 
 a:visited {
