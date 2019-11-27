@@ -1,0 +1,22 @@
+body {
+    background-image: url("img/starfield1.jpg");
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    color: #fa0;
+}
+
+a.anchor {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d80;
+}
+
+div#container {
+    background-color: #000;
+}
