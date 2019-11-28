@@ -16,3 +16,9 @@ a.anchor {
 a:visited {
     color: rgb(51, 35, 10);
 }
+
+img.vd2-logo {
+    display: block;
+    margin: 0 auto;
+    width: 596px;
+}
