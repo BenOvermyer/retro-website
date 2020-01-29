@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  <h2>Games</h2>
+
+  <p>These are tabletop RPGs I've written. They're listed in order of age, with the newest first.</p>
+
+  {{ range (where .Site.RegularPages "Section" "game") }}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}

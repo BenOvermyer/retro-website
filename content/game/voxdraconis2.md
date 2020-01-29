@@ -1,6 +1,31 @@
-# Vox Draconis: Kingdoms of Stone and Fire
+---
+title: "Vox Draconis: Kingdoms of Stone and Fire"
+date: 2020-01-28T06:55:23-06:00
+draft: false
+summary: "A modern rework of Vox Draconis, given decades of experience running and designing games."
+style: "fantasy"
+logo: "voxdraconis2"
+---
 
 # Introduction
+
+*Vox Draconis: Kingdoms of Stone and Fire* is my latest tabletop
+role-playing game project. Thematically, it's based on my original [Vox
+Draconis](vd.html) game. It's not set in the original game's
+"Desova" setting, but it takes a few cues from that world. Dinosaurs
+are as prevalent as other wildlife. The tech level is somewhere between
+the Stone Age and Tolkienesque fantasy. The game system makes a few nods
+to the original's, but is built around the player characters being true
+heroes and not rampaging murderhobo tomb raiders.
+
+"Treasure" as older tabletop role-playing games define it is much less
+of a focus. Experience Points are awarded for having an impact on the
+game world, and not explicitly for defeating monsters. It is perfectly
+plausible to run a campaign where no combat takes place.
+
+The game is still very rough. I will post the rules here when it's
+playable and iterate from there. For the time being, I intend to post
+updates here as I'm working on the rules.
 
 # Character Creation
 
@@ -345,3 +370,4 @@ Fears: what compels the being to attack or flee
 Description: a description of what the being looks like, how they move, and how they act
 
 Abilities: statistics and rules for each of the being's key abilities
+

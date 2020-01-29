@@ -1,0 +1,8 @@
+baseurl = "http://tilde.town/~sithlord/"
+languageCode = "en-us"
+theme = "retrox"
+title = "Sith Lord's Retro RPG Trove"
+
+[params]
+  author = "Ben Overmyer"
+  description = "A website for tabletop role-playing games"

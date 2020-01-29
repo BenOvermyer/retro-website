@@ -1,0 +1,10 @@
+ame = "Retrox"
+description = "A theme for my retro site"
+homepage = "https://github.com/BenOvermyer/retro-website"
+tags = ["minimal"]
+features = ["blog", "rss", "sharing options"]
+min_version = 0.1
+
+[author]
+  name = "Ben Overmyer"
+  homepage = "https://benovermyer.com"
