@@ -1,7 +1,9 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{ .Content }}
+  <p>This website is a collection of tabletop RPGs and materials for them. I've written all of these, though some are very old.</p>
+
+  <p>The aesthetic is intentionally reminiscent of the 90s, though with a few modern touches.</p>
 
   <h2>Games</h2>
 
@@ -10,4 +12,12 @@
   {{ range (where .Site.RegularPages "Section" "game") }}
     {{ .Render "summary" }}
   {{ end }}
+
+  {{ .Content }}
+{{ end }}
+{{ define "footer" }}
+<div class="counter">
+  <p>Web Counter</p>
+  <img src="https://counter.benovermyer.com/tilde.town/counter.jpg" width="200" height="50">
+</div>
 {{ end }}

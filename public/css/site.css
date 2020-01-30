@@ -75,6 +75,18 @@ div.container {
   padding: 1rem;
 }
 
+div.footer {
+  width: 968px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+div.counter {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6, th {
   font-family: 'tex', sans-serif;
 }
@@ -122,4 +134,19 @@ img.logo {
 
 div.summary {
   margin: 1rem 0;
+}
+
+div.summary h3 {
+  border-bottom: none;
+}
+
+div.summary-logo {
+  background-color: #aaa;
+  width: 250px;
+  float: left;
+  margin-right: 1rem;
+}
+
+div.summary-logo img {
+  width: 250px;
 }

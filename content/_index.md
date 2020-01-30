@@ -4,8 +4,6 @@ date: 2020-01-29T05:56:50-06:00
 draft: false
 style: scifi
 ---
-This website is my personal tabletop role-playing game creations website. I write things and dump them here.
-This includes some very old creations of mine. Soon, there will be newer creations too.
 
 ## Updates
 
