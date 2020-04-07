@@ -21,7 +21,9 @@ heroes and not rampaging murderhobo tomb raiders.
 "Treasure" as older tabletop role-playing games define it is much less
 of a focus. Experience Points are awarded for having an impact on the
 game world, and not explicitly for defeating monsters. It is perfectly
-plausible to run a campaign where no combat takes place.
+plausible to run a campaign where no combat takes place. Such a game
+might focus on the social intrigues of a noble court, or perhaps the
+misadventures of a group of street performers. This is up to you.
 
 The game is still very rough. I will post the rules here in PDF form 
 when it's playable and iterate from there. For the time being, the
@@ -31,7 +33,7 @@ unfinished manuscript is posted below.
 
 ## Attributes
 
-Every character has the following attributes. These define their physical, mental, social, and magical capabilities. At the beginning of character creation, you will randomly determine the value of each attribute. To do this, roll 3d6 and add 2 to the total. The result is the score for an attribute. Repeat this for every attribute.
+Every character has the following attributes. These define their physical, mental, social, and magical capabilities.
 
 There are four categories: Physical, Mental, Social, and Arcane. Each category has the following attributes.
 
@@ -42,6 +44,16 @@ There are four categories: Physical, Mental, Social, and Arcane. Each category h
 **Dexterity:** Manipulative ability or agility.
 
 In total, there are twelve attributes. For brevity's sake, sometimes you will see references to abbreviations of these attributes. These abbreviations will always have the first letter of the category and the first letter of the attribute. So, Physical Strength would be abbreviated PS, and Arcane Endurance would be abbreviated AE.
+
+At the beginning of character creation, determine the value of each attribute. Choose one of the two scoring methods below.
+
+### Random Method
+
+You can determine attributes randomly. To do this, roll 3d6 and add 2 to the total. The result is the score for an attribute. Repeat this for every attribute.
+
+### Point-Buy Method
+
+For a more balanced approach, you can instead use the point-buy method. In this method, you have 120 points to allocate among the attributes. No attribute can be over 14 or under 8 when using point-buy.
 
 ## Choose Two Ancestries
 
@@ -57,11 +69,9 @@ Pick an attunement. This will grant you a supernatural ability and an affinity f
 
 ## Derived Statistics
 
-After all the above is accounted for, calculate your derived statistics. These are Life Points, Mana Points, and Crisis Points. Life Points determine how much damage your character can take before falling unconscious. Mana Points determine how many spells your character can cast before resting. Crisis Points determine how many times your character can narrowly avoid disaster. They are calculated as follows.
+After all the above is accounted for, calculate your derived statistics. These are Life Points and Crisis Points. Life Points determine how much damage your character can take before falling unconscious. Crisis Points determine how many times your character can narrowly avoid disaster. They are calculated as follows.
 
 **Life Points:** Physical Endurance + 5
-
-**Mana Points:** Arcane Endurance + 5
 
 **Crisis Points:** (Mental Endurance + Physical Endurance + Social Endurance + Arcane Endurance) / 4 (round down)
 
@@ -71,9 +81,9 @@ Your character begins play with 50 silver drachms, the coinage of the realm. You
 
 # Character Advancement
 
-As you play, the Game Master will give you Experience Points. Once you earn enough, you can use them to purchase new levels in your Race, Class, or Aspect. The cost varies. See the Classes, Races, and Aspects chapters for more information.
+As you play, the Game Master will give you Experience Points. You can spend them between game sessions on Developments. See the Developments chapter for more information.
 
-Characters never gain more Life Points or Mana Points. To increase their durability, they must find new ways to protect themselves. To increase their ability to cast magic, they must discover ways to supplement their own limited magical energy.
+Characters never gain more Life Points. To increase their durability, they must find new ways to protect themselves.
 
 New Crisis Points can be gained by spending Experience Points. Each Crisis Point costs 10 Experience Points.
 
@@ -95,6 +105,8 @@ Most of the time, an action is going to require an attribute roll. The player ro
 
 If a player ever gets into a situation that would have dire consequences for them, they may make a Crisis Roll to avoid it. They roll a twenty-sided die, and if the roll is over 10, they succeed. If they fail, they must spend a Crisis Point to avoid their fate. If they don't have any Crisis Points to spend, the consequences fall on them.
 
+A Crisis Roll may be used for such things as avoiding death or negating the result of a social engagement.
+
 ## The Passage of Time
 
 In combat, a turn lasts roughly 5 seconds of in-game time. Outside of combat, a turn takes as much or as little in-game time as the scene demands.
@@ -105,17 +117,39 @@ The following rules govern how combat works.
 
 ### Attacking and Defending
 
-A character's Defense score is equal to the sum of Armor Points they have, plus any bonuses from class, race, aspect, or other sources.
+A character's Defense score is equal to the sum of Armor Points they have.
 
 When a character attacks, they roll a twenty-sided die and add their Physical Dexterity. If the result is higher than the defender's Defense score, the attack hits.
 
 ### Damage
 
-A successful hit deals damage equal to the amount specified by the weapon. Melee weapons deal an extra 2 damage if the character's Physical Strength is over 15, and an extra 4 damage if the attribute is over 20.
+A successful hit deals damage equal to the amount specified by the weapon. Melee weapons deal an extra 2 damage if the character's Physical Strength is over 15.
 
 ## Death
 
 If a character's Life Points reach zero or less, they fall unconscious. When this happens, the character must make a Crisis Roll. If they fail, they must spend a Crisis Point to stay alive. If the roll is successful or they spend the Crisis Point, they don't need to continue rolling, and the character stabilizes but remains unconscious.
+
+## Social Engagements
+
+A social engagement is a conversation of importance between two or more sides. Before it begins, divide the participants into sides. Every participant will argue for their side. Each side determines what they're arguing for before the engagement begins.
+
+Much like combat, each participant has a turn. On their turn, they may choose to take one of the following actions, or give up their turn for the round. Every social engagement lasts for three rounds. At the end
+of the three rounds, the total points of each side is compared, and the highest wins. In the event of a tie, there is no victor, and the engagement is a draw.
+
+Once the engagement is over, the GM determines the result of the winning argument.
+
+### Persuade
+
+This is an attempt to convince another participant of the correctness of your argument. Roll a twenty-sided die and add your Social Strength. If it is higher than the other participant's Social Endurance, you gain a point for your side.
+
+### Dissuade
+
+You can try and reduce the points of another participant's side. Roll a twenty-sided die and add your Social Dexterity. If it is higher than the other participant's Social Dexterity, their side loses a point. That side cannot go below zero points.
+
+### Riposte
+
+Instead of taking a direct action, you can complicate the result of the entire engagement by making a Riposte. Roll a twenty-sided die and add your Social Dexterity. If the result is higher than 10, then regardless of the result of the social engagement, there will be a complication. The GM
+chooses the complication.
 
 ## Experience Points
 
@@ -129,302 +163,276 @@ Player Points can be spent to alter or enhance the player character's backstory,
 
 # Magic
 
-Magic is a force both intrinsically linked to the world and wholly separate from it. It is the root of all creation, all destruction, all life, and all death. It is also a force unto itself. Some beings have natural mastery of a small part of it. Others learn how to manipulate its links to the world in order to control it. A rare few are born wholly from it and exhibit strange powers that defy mortal understanding.
+Magic is a force both intrinsically linked to the world and wholly separate from it. It is the root of all creation, all destruction, all life, and all death. It is also a force unto itself. Some beings exhibit unusual abilities born of it. Others learn how to manipulate its links to the world in order to have some small control over it.
 
-Casting spells is one of the ways in which characters can use magic. Another way is magic abilities, which are innate and not learned. Sometimes such abilities do not manifest until later in a being's life.
-
-Magic is mysterious, and not all the ways to use it have been discovered yet. Perhaps you will discover a new way.
-
-## Spells
-
-Each class has its own unique way of casting spells. Usually, it also limits the number or type of spells that a character can cast. What follows is a list of spells in alphabetical order. Each spell is described like this:
-
-**Name:** the name of the spell
-
-**Mana Points:** the mana point cost of the spell
-
-**Tags:** individual key words or phrases used to identify the spell for limitations or complications
-
-**Effects:** what happens when the spell is cast
-
-Alarm
-
-Animate Object
-
-Blizzard
-
-Blur
-
-Calm
-
-Charm
-
-Circle of Protection
-
-Commune with Spirits
-
-Contagion
-
-Cure Disease
-
-Darkness
-
-Earthquake
-
-Entangling Vines
-
-Extend Life
-
-Find North
-
-Find Object
-
-### Fireball
-
-**Mana Points:** 5
-
-**Tags:** Fire, Elemental, Attack
-
-A ball of fire the size of a human head flies from your fingertips towards a target you name. The target takes 5 damage and ignites if flammable.
-
-Flare
-
-Fog
-
-Fly
-
-Heal Wounds
-
-Howling Wind
-
-Ice Spear
-
-Ice Wall
-
-Ignite
-
-Infestation
-
-Invisibility
-
-Keen Edge
-
-Light
-
-Lightning Bolt
-
-Lock Door
-
-Phantom
-
-Raise Skeleton
-
-Raise Zombie
-
-Restore Limb
-
-Sense Death
-
-Shield
-
-Silent Alarm
-
-Sleep
-
-Sulfurous Cloud
-
-Tremor
-
-Undo Bonds
-
-Walk In Shadows
-
-Warning
+Despite its omnipresence, magic does not manifest strongly in the world. There are no spell-casters in the traditional sense. In game terms, characters will only ever have a handful of pre-defined magical abilities at most.
 
 # Classes
 
-The following are the classes of Vox Draconis. They are professions, followings, or other life pursuits. If you choose to purchase a package in a class other than one you already have, it must have the same type as your existing classes.
+The following are the classes of Vox Draconis. They are professions, followings, or other life pursuits.
 
-Each package of a class grants you a set of abilities and a new story element for your character. In order to purchase a package, you must meet the requirements and spend the specified amount of Experience Points. Note: the first class that you choose at character creation is free.
+## Dragon-Bonded
 
-Dragon-Bonded
+If a child is present when a dragon's egg hatches, there is a small chance that the hatchling and the child will
+form a supernatural and unbreakable bond. The Illdrazi have built their entire culture around this phenomenon, and co-exist
+in peace with dragons.
 
-Raptor-Bonded
+A dragon-bonded's life is built around that bond, for better or worse. They live with, hunt with, grow old with, and die with
+their dragon.
 
-Knight of the Realm
+At character creation, choose one of the dragon types from the Creatures, Enemies, and Allies chapter. You gain a dragon bond-mate
+of that type. They will listen to you and usually do as asked, but are not mindless servants and have goals of their own. Consider
+the personality of your bond-mate.
 
-Fell Knight
+### Dragon-Bonded Abilities
 
-Blood Mage
+- **Shared Life:** You are bonded to a single dragon for life. If your bond-mate dies, you must make a Crisis Roll. If you fail and
+cannot spend a Crisis Point, you also die. However, you also gain the lifespan of your dragon, and will not die of old age until
+they do.
+- **Telepathic Link:** You can communicate with your bond-mate in words and images, no matter how much distance is between
+you.
 
-Star Sage
+## Raptor-Bonded
 
-Inferno Mage
+The Ardonans are fierce tribal warriors whose lives revolve around fighting. They live in the jungles of Ardona, home to many
+equally fierce beasts. Among these are the greater raptors - bipedal carnivorous dinosaurs the size of a horse. When a clutch
+of greater raptor eggs hatch, a tribe of Ardonans will sometimes steal the hatchlings and raise them alongside their young.
 
-Storm Mage
+Often, a raptor hatchling and a child will form a supernatural bond. Once this occurs, the bond lasts until one of them dies.
 
-Mystery Weaver
+The raptor-bonded and their bond-mate hunt, fight, and live together. Groups of Ardonan raptor-bonded will hunt as packs and
+are deeply loyal to each other.
 
-Deathstalker
+### Raptor-Bonded Abilities
 
-Swashbuckler
+- **Shared Senses:** If you concentrate, you can share all of the senses of your bond-mate. You can only do this for a few seconds
+before needing to break the link, and you can only do it once every hour. The senses of your bond-mate replace your own for the
+duration.
+- **Empathic Link:** You can communicate with your bond-mate in emotions and images, no matter how much distance is between you.
 
-Shaman
+## Knight of the Realm
 
-Hunter
+## Adjudicator
 
-Cleric of the Light
+## Fell Knight
 
-Cleric of the Dark
+## Star Sage
 
-Cleric of the Balance
+## Mystery Weaver
 
-Death Mage
+## Deathstalker
 
-Life Mage
+## Swashbuckler
 
-Sword Singer
+## Shaman
 
-Berserker
+## Hunter
 
-Silver Tongue
+## Cleric of the Light
 
-Beast Master
+## Cleric of the Dark
+
+## Cleric of the Balance
+
+## Sword Singer
+
+## Berserker
+
+## Silver Tongue
+
+## Beast Master
 
 # Ancestries
 
 These are the ancestries of Vox Draconis. At character creation you will pick two of these to represent your character's parentage.
 You may pick the same ancestry twice. Once you have chosen your ancestries, pick one Major Aspect and two Minor Aspects from their
-lists.
+lists. The Major Aspect comes from the general ancestries, and the Minor Aspects come from the specific ancestries.
+
+> Alex decides his character's ancestries will be Coastal Human and Plains Human. She chooses the Major Aspect of *Resilient* from the Human
+list, and then the Minor Aspects of *Exceptional Swimmer* and *Natural Rider* from the Coastal Human and Plains Human lists.
 
 Pairings that are biologically incompatible are assumed to have occurred magically or through other supernatural means.
 
-## Coastal Human
+## Human
+
+### Human Major Aspects
+
+- **Resilient:** Automatically succeed on all Crisis Rolls. You still must spend a Crisis Point each time.
+- **Adaptable:** Once per combat or social engagement, you may reroll any roll. You must accept the second result.
+
+### Coastal Human
 
 Coastal humans tend towards bronzed skin, dark hair, and smaller builds.
 
 Gender   Height         Weight
--------- -------------- -----------------
-Female   4 ft + 2d4 in  60 lbs + 2d10 lbs
-Male     5 ft + 1d4 in  80 lbs + 2d10 lbs
+-------- -------------- ------------------
+Female   4 ft + 2d10 in 85 lbs + 2d20 lbs
+Male     5 ft + 1d10 in 120 lbs + 4d20 lbs
 
 Table: Height and weight for coastal humans
 
-### Major Aspects
+#### Coastal Human Minor Aspects
 
-- ?
+- **Expert in Swimming:** Add 5 to all Physical rolls related to swimming. This does not affect attacks.
+- **Expert in Fishing:** Add 5 to all fishing rolls.
 
-### Minor Aspects
-
-- *Exceptional Swimmer*
-
-## Mountain Human
+### Mountain Human
 
 Mountain humans tend towards fair skin, thick blonde, black, or red hair, and stout builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   4 ft + 2d10 in 85 lbs + 2d20 lbs
+Male     5 ft + 1d10 in 120 lbs + 4d20 lbs
 
-- ?
+Table: Height and weight for mountain humans
 
-### Minor Aspects
+#### Mountain Human Minor Aspects
 
-- ?
+- **Cold Weather Tolerance:** Add 5 to all Physical Endurance rolls made to resist the effects of cold weather.
+- **Expert in Woodcraft:** Add 5 to all rolls made to craft wooden objects.
 
-## Plains Human
+### Plains Human
 
 Plains humans tend towards bronzed skin, black hair, and lean builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   4 ft + 2d10 in 85 lbs + 2d20 lbs
+Male     5 ft + 1d10 in 120 lbs + 4d20 lbs
 
-- ?
+Table: Height and weight for plains humans
 
-### Minor Aspects
+#### Plains Human Minor Aspects
 
-- ?
+- **Natural Rider:** Add 5 to all rolls made for riding feats.
+- **Excellent Eyesight:** You can see fine detail at twice as far as a normal human.
 
-## Desert Human
+### Desert Human
 
 Desert humans tend towards dark skin, black hair, and muscular builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   4 ft + 2d10 in 85 lbs + 2d20 lbs
+Male     5 ft + 1d10 in 120 lbs + 4d20 lbs
 
-- ?
+Table: Height and weight for desert humans
 
-### Minor Aspects
+#### Desert Human Minor Aspects
 
-- ?
+- **Hot Weather Tolerance:** Add 5 to all Physical Endurance rolls made to resist the effects of hot weather.
+- **Water Sense:** You can sense the presence of water up to a mile away, and know its general direction and distance.
 
-## Coastal Elf
+## Elf
+
+### Elf Major Aspects
+
+- **Sleepless:** You do not sleep. Instead, you must enter a meditative trance for two hours a day.
+- **Immortal:** You do not die of old age, and you do not physically age beyond an apparent young adulthood.
+
+### Coastal Elf
 
 Coastal elves tend towards grey or blue skin, short white or blue hair, and lean builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   4 ft + 2d6 in  80 lbs + 2d10 lbs
+Male     4 ft + 2d12 in 85 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for coastal elves
 
-### Minor Aspects
+#### Coastal Elf Minor Aspects
 
-- ?
+- **Underwater Breathing:** You can breathe underwater.
+- **Expert in Fishing:** Add 5 to all fishing rolls.
 
-## Mountain Elf
+### Mountain Elf
 
 Mountain elves tend towards grey or white skin, white hair, and muscular builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   4 ft + 2d6 in  100 lbs + 2d10 lbs
+Male     4 ft + 2d12 in 110 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for mountain elves
 
-### Minor Aspects
+#### Mountain Elf Minor Aspects
 
-- ?
+- **Underground Navigation:** Add 5 to all rolls to navigate underground.
+- **Expert in Stonecarving:** Add 5 to all rolls to craft stone objects.
 
-## Forest Elf
+### Forest Elf
 
 Forest elves tend towards bronzed or fair skin, dark hair, and lean builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   4 ft + 2d6 in  80 lbs + 2d10 lbs
+Male     4 ft + 2d12 in 85 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for forest elves
 
-### Minor Aspects
+#### Forest Elf Minor Aspects
 
-- ?
+- **Expert in Tracking:** Add 5 to all rolls to track living things.
+- **Affinity for Forest Animals:** Forest animals do not run from your presence or attack you so long as you don't threaten them.
 
-## Mountain Dwarf
+## Dwarf
+
+### Dwarf Major Aspects
+
+- **Hardy**
+- **Immune to Poison**
+
+### Mountain Dwarf
 
 Mountain dwarves tend towards bronzed skin, dark hair, and stocky builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   3 ft + 2d4 in  100 lbs + 2d10 lbs
+Male     3 ft + 2d8 in  130 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for mountain dwarves
 
-### Minor Aspects
+#### Mountain Dwarf Minor Aspects
 
-- ?
+- **Expert in Gemcraft:** Add 5 to all rolls to craft gems or jewelry.
+- **Underground Navigation:** Add 5 to all rolls to navigate underground.
 
-## Steppe Dwarf
+### Steppe Dwarf
 
 Steppe dwarves tend towards dark skin, dark hair, and lean builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   3 ft + 2d4 in  80 lbs + 2d10 lbs
+Male     3 ft + 2d8 in  90 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for steppe dwarves
 
-### Minor Aspects
+#### Steppe Dwarf Minor Aspects
 
-- ?
+- **Direction Sense:** You innately know which way is north.
+- **Voice Projection:** When you project your voice, you can be heard clearly from up to a mile away.
 
-## Desert Dwarf
+### Desert Dwarf
 
 Desert dwarves tend towards dark skin, black hair, and muscular builds.
 
-### Major Aspects
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   3 ft + 2d4 in  100 lbs + 2d10 lbs
+Male     3 ft + 2d8 in  130 lbs + 2d10 lbs
 
-- ?
+Table: Height and weight for desert dwarves
 
-### Minor Aspects
+#### Desert Dwarf Minor Aspects
 
-- ?
+- **Hot Weather Tolerance:** Add 5 to all Physical Endurance rolls made to resist the effects of hot weather.
+- **Expert in Glassmaking:** Add 5 to all rolls to craft glass objects.
 
 ## Stone-Born
 
@@ -432,72 +440,192 @@ Stone-born are tall beings with tough, rocklike skin and glowing eyes. They are 
 possess growths of rough gemstone on their heads where humans would have hair or beards. Their
 skin can have the color and pattern of any natural stone.
 
-### Major Aspects
+### Stone-Born Major Aspects
 
-- ?
+- **Immunity to Heat:** You do not take damage from any heat.
+- **Immunity to Cold:** You do not take damage from any cold.
 
-### Minor Aspects
+### Mountain Stone-Born
 
-- ?
+Mountain stone-born tend towards darker skin, warm eye colors, and bulky builds.
+
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   6 ft + 2d6 in  160 lbs + 2d10 lbs
+Male     5 ft + 1d6 in  140 lbs + 2d10 lbs
+
+Table: Height and weight for mountain stone-born
+
+#### Mountain Stone-Born Minor Aspects
+
+- **Sight in Darkness:** You can see in darkness as well as in light. This vision is black and white only.
+- **Expert in Metalcraft:** Add 5 to all rolls to craft metal objects.
+
+### Desert Stone-Born
+
+Desert stone-born tend towards light skin, cold eye colors, and lean builds.
+
+Gender   Height         Weight
+-------- -------------- ------------------
+Female   6 ft + 2d8 in  150 lbs + 2d10 lbs
+Male     5 ft + 1d8 in  130 lbs + 2d10 lbs
+
+Table: Height and weight for desert stone-born
+
+#### Desert Stone-Born Minor Aspects
+
+- **Sand Burrowing:** You can dig beneath sand unusually fast and move beneath the sand at one-quarter of your walking speed.
+- **Affinity for Desert Animals:** Desert animals do not run from your presence or attack you so long as you don't threaten them.
 
 ## Mudling
 
 Mudlings are small beings with elongated heads, large eyes, and four fingers on each hand. They
 have thin or no hair.
 
-### Major Aspects
+### Mudling Major Aspects
 
-- ?
+- **Invisibility:** You can turn completely invisible as an action. You remain invisible as long as you don't move.
+- **Empathic Communication:** You can mentally communicate in emotions and images with anyone you can see. This communication is one-way.
 
-### Minor Aspects
+### Marsh Mudling
 
-- ?
+Marsh mudlings tend towards green or brown skin, no hair, and lean builds.
+
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   2 ft + 1d8 in  30 lbs + 2d6 lbs
+Male     2 ft + 2d8 in  40 lbs + 2d6 lbs
+
+Table: Height and weight for marsh mudlings
+
+#### Marsh Mudling Minor Aspects
+
+- **Expert in Swimming:** Add 5 to all Physical rolls related to swimming. This does not affect attacks.
+- **Underwater Breathing:** You can breathe underwater.
+
+### Forest Mudling
+
+Forest mudlings tend towards green or grey skin, dark hair, and muscular builds.
+
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   2 ft + 2d8 in  40 lbs + 2d6 lbs
+Male     2 ft + 3d8 in  50 lbs + 2d6 lbs
+
+Table: Height and weight for forest mudlings
+
+#### Forest Mudling Minor Aspects
+
+- **Expert in Hunting:** Add 5 to all rolls to track game.
+- **Expert in Climbing:** Add 5 to all rolls to climb.
 
 # Attunements
 
 The entries below are the attunements of Vox Draconis. You may never have more than one attunement.
 
-Phoenix
+An attunement is a supernatural alignment to a particular constellation or heavenly body. It is rare among
+mortals, affecting only 1 in 10,000. Those born with an attunement are destined for great and sometimes
+terrible things. Some animals also have attunements, though that is even rarer than among sentient beings.
 
-Dragon
+## Dragon
 
-Void
+### Ability: Breath Fire
 
-Ember
+### Affinity: Fire
 
-River
+## Ember
 
-Mountain
+### Ability: Firestarter
 
-Sky
+### Affinity: Fire
 
-Sun
+## Moon
 
-Moon
+### Ability: Silver Glow
+
+### Affinity: Water
+
+## Mountain
+
+### Ability: Earthquake
+
+### Affinity: Earth
+
+## Phoenix
+
+### Ability: Rebirth
+
+### Affinity: Life
+
+## River
+
+### Ability: Waterbreathing
+
+### Affinity: Water
+
+## Sky
+
+### Ability: Wingless Flight
+
+### Affinity: Air
+
+## Sun
+
+### Ability: Illumination
+
+### Affinity: Life
+
+## Void
+
+### Ability: Extinguish
+
+### Affinity: Death
+
+## Storm
+
+### Ability: Tempest
+
+### Affinity: Air
+
+## Cavern
+
+### Ability: Stoneshape
+
+### Affinity: Earth
+
+## Spirit
+
+### Ability: Talk to the Dead
+
+### Affinity: Death
 
 # Equipment
 
-Body Armor
+## Body Armor
 
-Helmets
+## Helmets
 
-Shields
+## Shields
 
-Melee Weapons
+## Melee Weapons
 
-Ranged Weapons
+## Ranged Weapons
 
-Food and Drink
+## Food and Drink
 
-Traveling Gear
+## Traveling Gear
 
-Dungeoneering Gear
+## Dungeoneering Gear
 
-Mounts
+## Clothing
 
-Carts and Wagons
+## Musical Instruments
 
-Ships
+## Mounts
+
+## Carts and Wagons
+
+## Ships
 
 # Creatures, Enemies, and Allies
 
@@ -505,17 +633,13 @@ These are the non-player characters players might encounter in their adventures.
 
 Each being in this section is described with the following format.
 
-Name: the name of the being
+**Name:** the name of the being
 
-Aspect: the aspect the being is linked to
+**Desires:** what drives the being to act
 
-Tags: key words or phrases used for spells or abilities
+**Fears:** what compels the being to attack or flee
 
-Desires: what drives the being to act
+**Description:** a description of what the being looks like, how they move, and how they act
 
-Fears: what compels the being to attack or flee
-
-Description: a description of what the being looks like, how they move, and how they act
-
-Abilities: statistics and rules for each of the being's key abilities
+**Abilities:** statistics and rules for each of the being's key abilities
 
