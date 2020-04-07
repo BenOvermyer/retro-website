@@ -1,11 +1,15 @@
 ---
-title: "Sith Lord's Retro RPG Trove"
+title: "Sith Lord's RPG Trove"
 date: 2020-01-29T05:56:50-06:00
 draft: false
 style: scifi
 ---
 
 ## Updates
+
+### April 7th, 2020
+
+Made some updates to Vox Draconis: Kingdoms of Stone and Fire.
 
 ### January 29th, 2020
 

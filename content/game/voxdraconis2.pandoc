@@ -23,9 +23,9 @@ of a focus. Experience Points are awarded for having an impact on the
 game world, and not explicitly for defeating monsters. It is perfectly
 plausible to run a campaign where no combat takes place.
 
-The game is still very rough. I will post the rules here when it's
-playable and iterate from there. For the time being, I intend to post
-updates here as I'm working on the rules.
+The game is still very rough. I will post the rules here in PDF form 
+when it's playable and iterate from there. For the time being, the
+unfinished manuscript is posted below.
 
 # Character Creation
 
@@ -43,17 +43,17 @@ There are four categories: Physical, Mental, Social, and Arcane. Each category h
 
 In total, there are twelve attributes. For brevity's sake, sometimes you will see references to abbreviations of these attributes. These abbreviations will always have the first letter of the category and the first letter of the attribute. So, Physical Strength would be abbreviated PS, and Arcane Endurance would be abbreviated AE.
 
-## Choosing a Race
+## Choose Two Ancestries
 
-Pick a race. This will give you several innate abilities and give you a piece of your character's background.
+Pick two ancestries. This will give you several innate abilities and a piece of your character's background.
 
-## Choosing a Class
+## Choose a Class
 
 Pick a class. This will determine your path in life and which abilities you have refined.
 
-## Choosing an Aspect
+## Choose an Attunement
 
-Pick an aspect. This will grant you a supernatural ability and an affinity for a supernatural force. Be warned: that affinity will be both a boon and a weakness.
+Pick an attunement. This will grant you a supernatural ability and an affinity for a supernatural force. Be warned: that affinity will be both a boon and a weakness.
 
 ## Derived Statistics
 
@@ -139,13 +139,13 @@ Magic is mysterious, and not all the ways to use it have been discovered yet. Pe
 
 Each class has its own unique way of casting spells. Usually, it also limits the number or type of spells that a character can cast. What follows is a list of spells in alphabetical order. Each spell is described like this:
 
-Name: the name of the spell
+**Name:** the name of the spell
 
-Mana Points: the mana point cost of the spell
+**Mana Points:** the mana point cost of the spell
 
-Tags: individual key words or phrases used to identify the spell for limitations or complications
+**Tags:** individual key words or phrases used to identify the spell for limitations or complications
 
-Effects: what happens when the spell is cast
+**Effects:** what happens when the spell is cast
 
 Alarm
 
@@ -291,23 +291,171 @@ Silver Tongue
 
 Beast Master
 
-# Races
+# Ancestries
 
-These are the races of Vox Draconis. You may never have more than one race.
+These are the ancestries of Vox Draconis. At character creation you will pick two of these to represent your character's parentage.
+You may pick the same ancestry twice. Once you have chosen your ancestries, pick one Major Aspect and two Minor Aspects from their
+lists.
 
-Human
+Pairings that are biologically incompatible are assumed to have occurred magically or through other supernatural means.
 
-Elf
+## Coastal Human
 
-Dwarf
+Coastal humans tend towards bronzed skin, dark hair, and smaller builds.
 
-Stone-Born
+Gender   Height         Weight
+-------- -------------- -----------------
+Female   4 ft + 2d4 in  60 lbs + 2d10 lbs
+Male     5 ft + 1d4 in  80 lbs + 2d10 lbs
 
-Mudling
+Table: Height and weight for coastal humans
 
-# Aspects
+### Major Aspects
 
-The entries below are the aspects of Vox Draconis. You may never have more than one aspect.
+- ?
+
+### Minor Aspects
+
+- *Exceptional Swimmer*
+
+## Mountain Human
+
+Mountain humans tend towards fair skin, thick blonde, black, or red hair, and stout builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Plains Human
+
+Plains humans tend towards bronzed skin, black hair, and lean builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Desert Human
+
+Desert humans tend towards dark skin, black hair, and muscular builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Coastal Elf
+
+Coastal elves tend towards grey or blue skin, short white or blue hair, and lean builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Mountain Elf
+
+Mountain elves tend towards grey or white skin, white hair, and muscular builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Forest Elf
+
+Forest elves tend towards bronzed or fair skin, dark hair, and lean builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Mountain Dwarf
+
+Mountain dwarves tend towards bronzed skin, dark hair, and stocky builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Steppe Dwarf
+
+Steppe dwarves tend towards dark skin, dark hair, and lean builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Desert Dwarf
+
+Desert dwarves tend towards dark skin, black hair, and muscular builds.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Stone-Born
+
+Stone-born are tall beings with tough, rocklike skin and glowing eyes. They are hairless. Some
+possess growths of rough gemstone on their heads where humans would have hair or beards. Their
+skin can have the color and pattern of any natural stone.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+## Mudling
+
+Mudlings are small beings with elongated heads, large eyes, and four fingers on each hand. They
+have thin or no hair.
+
+### Major Aspects
+
+- ?
+
+### Minor Aspects
+
+- ?
+
+# Attunements
+
+The entries below are the attunements of Vox Draconis. You may never have more than one attunement.
 
 Phoenix
 

@@ -1,7 +1,7 @@
 baseurl = "http://tilde.town/~sithlord/"
 languageCode = "en-us"
 theme = "retrox"
-title = "Sith Lord's Retro RPG Trove"
+title = "Sith Lord's RPG Trove"
 
 [params]
   author = "Ben Overmyer"
