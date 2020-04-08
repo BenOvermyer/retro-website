@@ -383,8 +383,8 @@ Table: Height and weight for forest elves
 
 ### Dwarf Major Aspects
 
-- **Hardy**
-- **Immune to Poison**
+- **Hardy:** You can go up to a week without eating or drinking with no ill effect.
+- **Immune to Poison:** No poison or venom has any effect on you.
 
 ### Mountain Dwarf
 
@@ -399,7 +399,7 @@ Table: Height and weight for mountain dwarves
 
 #### Mountain Dwarf Minor Aspects
 
-- **Expert in Gemcraft:** Add 5 to all rolls to craft gems or jewelry.
+- **Expert in Gemcraft:** Add 5 to all rolls to identify or refine gemstones.
 - **Underground Navigation:** Add 5 to all rolls to navigate underground.
 
 ### Steppe Dwarf
@@ -609,6 +609,17 @@ terrible things. Some animals also have attunements, though that is even rarer t
 
 ## Melee Weapons
 
+Name      Damage Special Ability               Cost
+--------- ------ ----------------------------- ----------
+Battle Ax 1d8    Can be used to negate shields 20 drachm
+Dagger    1d4    Easy to hide                  2 drachm
+Lance     1d6    Can be couched - 1d10 damage  35 drachm
+Spear     1d8    Reach of 10 feet              10 drachm
+Sword     1d6                                  8 drachm
+Trident   1d8    Reach of 10 feet              25 drachm
+
+Table: Melee Weapons
+
 ## Ranged Weapons
 
 ## Food and Drink
@@ -643,3 +654,40 @@ Each being in this section is described with the following format.
 
 **Abilities:** statistics and rules for each of the being's key abilities
 
+## Allosaur
+
+## Ankylosaur
+
+## Bandit
+
+## Brontosaur
+
+## City Guard
+
+## Cultist
+
+## Dilophosaur
+
+## Dragon, Great Horned
+
+## Dragon, Lake
+
+## Dragon, Moon
+
+## Dragon, Rock
+
+## Dragon, Forest
+
+## Noble
+
+## Ogre
+
+## Ranger
+
+## Raptor, Greater
+
+## Tyrannosaur
+
+## Velociraptor
+
+# The World of Yrda
