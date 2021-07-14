@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sith Lord's Site</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Sith Lord's Site</h1>
+  </header>
+  <div class="container">
+    <section class="sidebar">
+      <h2>Links</h2>
+      <p>These are some links to sites of interest.</p>
+      <ul>
+        <li><a href="https://benovermyer.com">my main site</a></li>
+        <li><a href="https://ironarachne.com">iron arachne</a></li>
+        <li><a href="https://rpggen.dev">rpg generator directory</a></li>
+        <li><a href="https://tilde.town/~vilmibm/">~vilmibm</a></li>
+        <li><a href="https://tilde.town/~dozens/">~dozens</a></li>
+        <li><a href="https://tilde.town/~archangelic/">~archangelic</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Welcome!</h2>
+      <p>
+        This is my nostalgic "tilde" website. This is my playground where I'll
+        test out new fonts, CSS tricks, JavaScript, and random other things.
+      </p>
+      <p>
+        If you're here for RPG content, you might want to check out
+        <a href="https://rpggen.dev">this directory</a> for RPG content
+        generator websites. Or maybe my
+        <a href="https://ironarachne.com">Iron Arachne</a> generator website.
+      </p>
+    </section>
+  </div>
+  <section class="standalone">
+    <blockquote>
+      <span>Just do your best, and let the rest take care of itself.</span>
+      <cite>&mdash; Justy Ueki Tylor, Age Twenty</cite>
+    </blockquote>
+
+    <h2>Toys</h2>
+
+    <h3>Startup Generator</h3>
+    <button onclick="generateStartup()">Give me a startup!</button>
+    <div id="target"></div>
+
+    <h3>Hot Sauce Generator</h3>
+    <button onclick="generateHotSauce()">Give me a hot sauce!</button>
+    <div id="hotsauce"></div>
+
+    <h3>Dragon Generator</h3>
+    <button onclick="generateDragon()">Give me a dragon!</button>
+    <div id="dragon"></div>
+  </section>
+  <footer>
+    <p>
+      This site lovingly hand-crafted in VS Code using Sass, vanilla JavaScript,
+      and HTML.
+    </p>
+    <a href="http://tilde.town/~lucidiot/"><img src="tildetown_anim2.gif" alt="tilde town animation" /></a>
+  </footer>
+  <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

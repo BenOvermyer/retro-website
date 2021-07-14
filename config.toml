@@ -1,8 +1,0 @@
-baseurl = "http://tilde.town/~sithlord/"
-languageCode = "en-us"
-theme = "retrox"
-title = "Sith Lord's RPG Trove"
-
-[params]
-  author = "Ben Overmyer"
-  description = "A website for tabletop role-playing games"
